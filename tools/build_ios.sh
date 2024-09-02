@@ -83,17 +83,17 @@ fi
 #    exit -1
 #fi
 
-#echo ''
-#echo '------------'
-#echo '--- lipo ---'
-#echo '------------'
-#rm -rf ./build-ios/products
-#mkdir -p ./build-ios/products/LabSoundBridge.framework
-#lipo -create -output ./build-ios/products/LabSoundBridge.framework/LabSoundBridge ./build-ios/build-xcframework/LabSoundBridge.xcframework/ios-arm64-simulator/LabSoundBridge.framework/LabSoundBridge ./build-ios/build-simulator/Release-iphonesimulator/LabSoundBridge.framework/LabSoundBridge 
-#if [ $? -ne 0 ]; then
-#    echo "Error: lipo -create -output ./build-ios/products/LabSoundBridge.framework/LabSoundBridge ./build-ios/build/Release-iphoneos/LabSoundBridge.framework/LabSoundBridge ./build-ios/build-simulator-arm64/LabSoundBridge.framework/LabSoundBridge"
-#    #exit -1
-#fi
+echo ''
+echo '------------'
+echo '--- lipo ---'
+echo '------------'
+rm -rf ./build-ios/lipo
+mkdir -p ./build-ios/lipo/LabSoundBridge.framework
+lipo -create -output ./build-ios/lipo/LabSoundBridge.framework/LabSoundBridge ./build-ios/build/Release-iphoneos/LabSoundBridge.framework/LabSoundBridge build-ios/build-simulator/Release-iphonesimulator/LabSoundBridge.framework/LabSoundBridge 
+if [ $? -ne 0 ]; then
+    echo "Error: lipo -create -output ./build-ios/products/LabSoundBridge.framework/LabSoundBridge ./build-ios/build/Release-iphoneos/LabSoundBridge.framework/LabSoundBridge ./build-ios/build-simulator-arm64/LabSoundBridge.framework/LabSoundBridge"
+    #exit -1
+fi
 ####cp ./products/LabSoundBridge.framework/LabSoundBridge ./build-xcframework/LabSoundBridge.xcframework/ios-arm64-simulator/LabSoundBridge.framework/
 
 echo ''
