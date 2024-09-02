@@ -8,7 +8,7 @@ include("/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/cmake/ios-toolchain.cm
 set(CMAKE_SYSTEM "iOS-17.5")
 set(CMAKE_SYSTEM_NAME "iOS")
 set(CMAKE_SYSTEM_VERSION "17.5")
-set(CMAKE_SYSTEM_PROCESSOR "aarch64")
+set(CMAKE_SYSTEM_PROCESSOR "x86_64")
 
 set(CMAKE_CROSSCOMPILING "TRUE")
 

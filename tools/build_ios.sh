@@ -19,7 +19,7 @@ echo '--- build-simulator ---'
 echo '-----------------------'
 rm -rf build-ios/build-simulator
 mkdir build-ios/build-simulator
-cmake -B ./build-ios/build-simulator -G "Xcode" -DPLATFORM=SIMULATORARM64 -DCMAKE_TOOLCHAIN_FILE=cmake/ios-toolchain.cmake -DCMAKE_BUILD_TYPE=Release
+cmake -B ./build-ios/build-simulator -G "Xcode" -DPLATFORM=SIMULATOR64 -DCMAKE_TOOLCHAIN_FILE=cmake/ios-toolchain.cmake -DCMAKE_BUILD_TYPE=Release
 cmake --build ./build-ios/build-simulator --config Release
 if [ $? -ne 0 ]; then
     echo "Error: cmake --build ./build-ios/build-simulator --config Release"
@@ -27,30 +27,42 @@ if [ $? -ne 0 ]; then
 fi
 
 
-#echo ''
-#echo '-----------------------------'
-#echo '--- build-simulator-arm64 ---'
-#echo '-----------------------------'
-#rm -rf  build-ios/build-simulator-arm64
-#mkdir build-ios/build-simulator-arm64
-#cmake -B ./build-ios/build-simulator-arm64 -G "Xcode" -DPLATFORM=SIMULATORARM64 -DCMAKE_TOOLCHAIN_FILE=cmake/ios-toolchain.cmake -DCMAKE_BUILD_TYPE=Release
-#cmake --build ./build-ios/build-simulator-arm64 --config Release
-#if [ $? -ne 0 ]; then
-#    echo "Error: cmake --build ./build-ios/build-simulator-arm64 --config Release"
-#    exit -1
-#fi
+echo ''
+echo '-----------------------------'
+echo '--- build-simulator-arm64 ---'
+echo '-----------------------------'
+rm -rf  build-ios/build-simulator-arm64
+mkdir build-ios/build-simulator-arm64
+cmake -B ./build-ios/build-simulator-arm64 -G "Xcode" -DPLATFORM=SIMULATORARM64 -DCMAKE_TOOLCHAIN_FILE=cmake/ios-toolchain.cmake -DCMAKE_BUILD_TYPE=Release
+cmake --build ./build-ios/build-simulator-arm64 --config Release
+if [ $? -ne 0 ]; then
+    echo "Error: cmake --build ./build-ios/build-simulator-arm64 --config Release"
+    exit -1
+fi
+
+echo ''
+echo '-----------------------------'
+echo '--- build-simulator-arm64 ---'
+echo '-----------------------------'
+rm -rf  build-ios/build-combo64
+mkdir build-ios/build-combo64
+cmake -B ./build-ios/build-combo64 -G "Xcode" -DPLATFORM=OS64COMBINED -DCMAKE_TOOLCHAIN_FILE=cmake/ios-toolchain.cmake -DCMAKE_BUILD_TYPE=Release
+cmake --build ./build-ios/build-combo64 --config Release
+if [ $? -ne 0 ]; then
+    echo "Error: cmake --build ./build-ios/build-combo64 --config Release"
+    exit -1
+fi
 
 
 echo ''
 echo '-------------------------' 
 echo '--- build-xcframework ---'
 echo '-------------------------' 
-rm -rf build-ios/build-xcframework
-mkdir -p build-ios/build-xcframework
+rm -rf build-ios/LabSoundBridge.xcframework
 xcodebuild -create-xcframework \
     -framework ./build-ios/build-simulator/Release-iphonesimulator/LabSoundBridge.framework\
     -framework ./build-ios/build/Release-iphoneos/LabSoundBridge.framework \
-    -output "build-ios/build-xcframework/LabSoundBridge.xcframework"
+    -output "build-ios/LabSoundBridge.xcframework"
 if [ $? -ne 0 ]; then
     echo "Error: cmake --build xcodebuild -create-xcframework  --config Release"
     exit -1
