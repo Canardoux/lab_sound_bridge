@@ -19,7 +19,7 @@ echo '--- build-simulator ---'
 echo '-----------------------'
 rm -rf build-ios/build-simulator
 mkdir build-ios/build-simulator
-cmake -B ./build-ios/build-simulator -G "Xcode" -DPLATFORM=SIMULATOR64 -DCMAKE_TOOLCHAIN_FILE=cmake/ios-toolchain.cmake -DCMAKE_BUILD_TYPE=Release
+cmake -B ./build-ios/build-simulator -G "Xcode" -DPLATFORM=SIMULATORARM64 -DCMAKE_TOOLCHAIN_FILE=cmake/ios-toolchain.cmake -DCMAKE_BUILD_TYPE=Release
 cmake --build ./build-ios/build-simulator --config Release
 if [ $? -ne 0 ]; then
     echo "Error: cmake --build ./build-ios/build-simulator --config Release"
@@ -27,18 +27,18 @@ if [ $? -ne 0 ]; then
 fi
 
 
-echo ''
-echo '-----------------------------'
-echo '--- build-simulator-arm64 ---'
-echo '-----------------------------'
-rm -rf  build-ios/build-simulator-arm64
-mkdir build-ios/build-simulator-arm64
-cmake -B ./build-ios/build-simulator-arm64 -G "Xcode" -DPLATFORM=SIMULATORARM64 -DCMAKE_TOOLCHAIN_FILE=cmake/ios-toolchain.cmake -DCMAKE_BUILD_TYPE=Release
-cmake --build ./build-ios/build-simulator-arm64 --config Release
-if [ $? -ne 0 ]; then
-    echo "Error: cmake --build ./build-ios/build-simulator-arm64 --config Release"
-    exit -1
-fi
+#echo ''
+#echo '-----------------------------'
+#echo '--- build-simulator-arm64 ---'
+#echo '-----------------------------'
+#rm -rf  build-ios/build-simulator-arm64
+#mkdir build-ios/build-simulator-arm64
+#cmake -B ./build-ios/build-simulator-arm64 -G "Xcode" -DPLATFORM=SIMULATORARM64 -DCMAKE_TOOLCHAIN_FILE=cmake/ios-toolchain.cmake -DCMAKE_BUILD_TYPE=Release
+#cmake --build ./build-ios/build-simulator-arm64 --config Release
+#if [ $? -ne 0 ]; then
+#    echo "Error: cmake --build ./build-ios/build-simulator-arm64 --config Release"
+#    exit -1
+#fi
 
 
 echo ''
@@ -48,7 +48,7 @@ echo '-------------------------'
 rm -rf build-ios/build-xcframework
 mkdir -p build-ios/build-xcframework
 xcodebuild -create-xcframework \
-    -framework ./build-ios/build-simulator-arm64/Release-iphonesimulator/LabSoundBridge.framework\
+    -framework ./build-ios/build-simulator/Release-iphonesimulator/LabSoundBridge.framework\
     -framework ./build-ios/build/Release-iphoneos/LabSoundBridge.framework \
     -output "build-ios/build-xcframework/LabSoundBridge.xcframework"
 if [ $? -ne 0 ]; then
@@ -71,17 +71,17 @@ fi
 #    exit -1
 #fi
 
-echo ''
-echo '------------'
-echo '--- lipo ---'
-echo '------------'
-rm -rf ./build-ios/products
-mkdir -p ./build-ios/products/LabSoundBridge.framework
-lipo -create -output ./build-ios/products/LabSoundBridge.framework/LabSoundBridge ./build-ios/build-xcframework/LabSoundBridge.xcframework/ios-arm64-simulator/LabSoundBridge.framework/LabSoundBridge ./build-ios/build-simulator/Release-iphonesimulator/LabSoundBridge.framework/LabSoundBridge 
-if [ $? -ne 0 ]; then
-    echo "Error: lipo -create -output ./build-ios/products/LabSoundBridge.framework/LabSoundBridge ./build-ios/build/Release-iphoneos/LabSoundBridge.framework/LabSoundBridge ./build-ios/build-simulator-arm64/LabSoundBridge.framework/LabSoundBridge"
-    #exit -1
-fi
+#echo ''
+#echo '------------'
+#echo '--- lipo ---'
+#echo '------------'
+#rm -rf ./build-ios/products
+#mkdir -p ./build-ios/products/LabSoundBridge.framework
+#lipo -create -output ./build-ios/products/LabSoundBridge.framework/LabSoundBridge ./build-ios/build-xcframework/LabSoundBridge.xcframework/ios-arm64-simulator/LabSoundBridge.framework/LabSoundBridge ./build-ios/build-simulator/Release-iphonesimulator/LabSoundBridge.framework/LabSoundBridge 
+#if [ $? -ne 0 ]; then
+#    echo "Error: lipo -create -output ./build-ios/products/LabSoundBridge.framework/LabSoundBridge ./build-ios/build/Release-iphoneos/LabSoundBridge.framework/LabSoundBridge ./build-ios/build-simulator-arm64/LabSoundBridge.framework/LabSoundBridge"
+#    #exit -1
+#fi
 ####cp ./products/LabSoundBridge.framework/LabSoundBridge ./build-xcframework/LabSoundBridge.xcframework/ios-arm64-simulator/LabSoundBridge.framework/
 
 echo ''
@@ -94,11 +94,11 @@ security unlock-keychain -p abc123 build.keychain
 security import certificate.p12 -k build.keychain -P $MACOS_CERTIFICATE_PWD -T /usr/bin/codesign
 security set-key-partition-list -S apple-tool:,apple:,codesign: -s -k abc123 build.keychain
 codesignIdentity=`security find-identity -p codesigning -v | grep -Eo "[0-9A-F]{40}" | head -n 1`
-/usr/bin/codesign --force -s $codesignIdentity ./build-ios/build-xcframework/LabSoundBridge.xcframework/ios-arm64/LabSoundBridge.framework -v
-/usr/bin/codesign --force -s $codesignIdentity ./build-ios/build-xcframework/LabSoundBridge.xcframework -v
+###/usr/bin/codesign --force -s $codesignIdentity ./build-ios/build-xcframework/LabSoundBridge.xcframework/ios-arm64/LabSoundBridge.framework -v
+###/usr/bin/codesign --force -s $codesignIdentity ./build-ios/build-xcframework/LabSoundBridge.xcframework -v
 if [ $? -ne 0 ]; then
     echo "Error: /usr/bin/codesign --force -s $codesignIdentity ./build-ios/build-xcframework/LabSoundBridge.xcframework/ios-arm64/LabSoundBridge.framework -v"
-    exit -1
+###    exit -1
 fi
 # rm -rf LabSoundBridge.xcframework/ios-arm64-simulator
 # cp -a products/LabSoundBridge.framework build-xcframework/LabSoundBridge.xcframework/ios-arm64-simulator
