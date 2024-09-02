@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "lab_sound_bridge"
-    s.version      = '0.0.9'
+    s.version      = '0.0.10'
     s.summary      = "Bridge to LabSound for Flutter"
     s.description      = <<-DESC
     This lib is used by the flutter plugin `lab_sound_flutter` to access the LabSound lib.
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
     s.license = { :type => "BSD", :file => "LICENSE" }
     s.author             = { "Xioxin" => "your@mail.com" }
     s.source       = { :git => "https://github.com/canardoux/lab_sound_bridge.git", :branch => "main", :tag => "#{s.version}" }
-    s.vendored_frameworks = "build-ios/build-simulator-arm64/Release-iphonesimulator/LabSoundBridge.framework"
+    s.vendored_frameworks = "build-ios/build-combo64/Release-iphoneos/LabSoundBridge.framework"
     s.platform = :ios
     s.swift_version = "5.7"
     s.ios.deployment_target  = '12.0'
