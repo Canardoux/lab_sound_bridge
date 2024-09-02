@@ -46,12 +46,44 @@ echo '--- build-simulator-combo ---'
 echo '-----------------------------'
 rm -rf  build-ios/build-combo64
 mkdir build-ios/build-combo64
-cmake -B ./build-ios/build-combo64 -G "Xcode" --install-prefix ./build-ios/destination -DPLATFORM=OS64COMBINED -DCMAKE_TOOLCHAIN_FILE=cmake/ios-toolchain.cmake -DCMAKE_BUILD_TYPE=Release
-cmake --build ./build-ios/build-combo64 --config Release --install-prefix ./build-ios/destination
+cmake -B ./build-ios/build-combo64 -G "Xcode" --install-prefix ~/proj/tau/lab_sound_bridge/build-ios/destination -DPLATFORM=OS64COMBINED -DCMAKE_TOOLCHAIN_FILE=cmake/ios-toolchain.cmake -DCMAKE_BUILD_TYPE=Release
+cmake --build ./build-ios/build-combo64 --config Release 
 if [ $? -ne 0 ]; then
     echo "Error: cmake --build ./build-ios/build-combo64 --config Release"
     exit -1
 fi
+
+
+cd build-ios/build-combo64
+rm -rf ./LabSoundBridge-iphoneos.xcarchive ./LabSoundBridge-iphonesimulator.xcarchive LabSoundBridge.xcframework
+xcodebuild archive -scheme LabSoundBridge \
+    -archivePath ./LabSoundBridge-iphoneos.xcarchive \
+    -sdk iphoneos \
+    SKIP_INSTALL=NO BUILD_LIBRARIES_FOR_DISTRIBUTION=YES
+if [ $? -ne 0 ]; then
+    echo "Error: xcodebuild archive -scheme LabSoundBridge"
+    exit -1
+fi
+
+xcodebuild archive -scheme LabSoundBridge \
+    -archivePath ./LabSoundBridge-iphonesimulator.xcarchive \
+    -sdk iphonesimulator \
+    SKIP_INSTALL=NO BUILD_LIBRARIES_FOR_DISTRIBUTION=YES
+if [ $? -ne 0 ]; then
+    echo "Error: xcodebuild archive -scheme LabSoundBridge"
+    exit -1
+fi
+
+xcodebuild -create-xcframework \
+    -framework ./LabSoundBridge-iphoneos.xcarchive/Products/\@rpath/LabSoundBridge.framework \
+    -framework ./LabSoundBridge-iphonesimulator.xcarchive/Products/\@rpath/LabSoundBridge.framework \
+    -output "/LabSoundBridge.xcframework"
+if [ $? -ne 0 ]; then
+    echo "Error: cmake --build xcodebuild -create-xcframework  --config Release"
+    exit -1
+fi
+
+cd ../..
 
 
 echo ''
