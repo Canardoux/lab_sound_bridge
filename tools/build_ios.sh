@@ -42,14 +42,19 @@ fi
 
 echo ''
 echo '-----------------------------'
-echo '--- build-simulator-arm64 ---'
+echo '--- build-simulator-combo ---'
 echo '-----------------------------'
 rm -rf  build-ios/build-combo64
 mkdir build-ios/build-combo64
-cmake -B ./build-ios/build-combo64 -G "Xcode" -DPLATFORM=OS64COMBINED -DCMAKE_TOOLCHAIN_FILE=cmake/ios-toolchain.cmake -DCMAKE_BUILD_TYPE=Release
+cmake -B ./build-ios/build-combo64 -G "Xcode" --prefix ./build-ios/destination -DCMAKE_INSTALL_PREFIX=./build-ios/destination -DPLATFORM=OS64COMBINED -DCMAKE_TOOLCHAIN_FILE=cmake/ios-toolchain.cmake -DCMAKE_BUILD_TYPE=Release
 cmake --build ./build-ios/build-combo64 --config Release
 if [ $? -ne 0 ]; then
     echo "Error: cmake --build ./build-ios/build-combo64 --config Release"
+    exit -1
+fi
+cmake install
+if [ $? -ne 0 ]; then
+    echo "Error: cmake install"
     exit -1
 fi
 
