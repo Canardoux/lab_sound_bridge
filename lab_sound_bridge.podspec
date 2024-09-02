@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
     s.license = { :type => "BSD", :file => "LICENSE" }
     s.author             = { "Xioxin" => "your@mail.com" }
     s.source       = { :git => "https://github.com/canardoux/lab_sound_bridge.git", :branch => "main", :tag => "#{s.version}" }
-    s.vendored_frameworks = "build-ios/build/Release-iphoneos/LabSoundBridge.framework"
+    s.vendored_frameworks = "build-ios/LabSoundBridge.xcframework"
     s.platform = :ios
     s.swift_version = "5.7"
     s.ios.deployment_target  = '12.0'

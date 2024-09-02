@@ -60,7 +60,7 @@ echo '--- build-xcframework ---'
 echo '-------------------------' 
 rm -rf build-ios/LabSoundBridge.xcframework
 xcodebuild -create-xcframework \
-    -framework ./build-ios/build-simulator/Release-iphonesimulator/LabSoundBridge.framework\
+    -framework ./build-ios/build-simulator-arm64/Release-iphonesimulator/LabSoundBridge.framework\
     -framework ./build-ios/build/Release-iphoneos/LabSoundBridge.framework \
     -output "build-ios/LabSoundBridge.xcframework"
 if [ $? -ne 0 ]; then
