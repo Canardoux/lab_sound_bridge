@@ -89,7 +89,7 @@ echo '--- lipo ---'
 echo '------------'
 rm -rf ./build-ios/lipo
 mkdir -p ./build-ios/lipo/LabSoundBridge.framework
-cp ./build-ios/build/Release-iphoneos/LabSoundBridge.framework/LabSoundBridge/* ./build-ios/lipo/LabSoundBridge.framework
+cp ./build-ios/build/Release-iphoneos/LabSoundBridge.framework/* ./build-ios/lipo/LabSoundBridge.framework
 lipo -create -output ./build-ios/lipo/LabSoundBridge.framework/LabSoundBridge ./build-ios/build/Release-iphoneos/LabSoundBridge.framework/LabSoundBridge build-ios/build-simulator/Release-iphonesimulator/LabSoundBridge.framework/LabSoundBridge 
 if [ $? -ne 0 ]; then
     echo "Error: lipo -create -output ./build-ios/products/LabSoundBridge.framework/LabSoundBridge ./build-ios/build/Release-iphoneos/LabSoundBridge.framework/LabSoundBridge ./build-ios/build-simulator-arm64/LabSoundBridge.framework/LabSoundBridge"
