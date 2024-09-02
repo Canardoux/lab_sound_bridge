@@ -9,7 +9,7 @@
 /* Begin PBXAggregateTarget section */
 		45D3B2E6BF424B83C71F419C /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = FFB4A987BC9444079EA3ADEB /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = D662A036FC5649D9B9870F8B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				2BD747D47071BE80BA9915B8 /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -20,38 +20,38 @@
 		};
 		67FC0E9AA23AA0206FB19AFB /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = EBE18A726D784BE98668ECF3 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 030C16EE5DAD47AAA417863B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				1A898110A93390F98178FDA7 /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				26A7DBA4436F4BC99DBA6F78 /* PBXTargetDependency */,
-				2FBF9A412E764AFDB7E26681 /* PBXTargetDependency */,
-				C22364305079438BBC51558E /* PBXTargetDependency */,
+				C7F828D97DA5440FBA85020C /* PBXTargetDependency */,
+				C6F5B3A47F5C4A2FAEAD02C7 /* PBXTargetDependency */,
+				D1DA2D2750554F5F9BAF8A1C /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
 		800C0E101B10AA2D181356A4 /* install */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 506ABDE41C624156866C64FE /* Build configuration list for PBXAggregateTarget "install" */;
+			buildConfigurationList = 0372A03F7EE84217854EBCCE /* Build configuration list for PBXAggregateTarget "install" */;
 			buildPhases = (
 				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				81AE4390D3724944BC8375E0 /* PBXTargetDependency */,
+				2B4491DAF0E548489C1B3CE2 /* PBXTargetDependency */,
 			);
 			name = install;
 			productName = install;
 		};
 		B737A66E1B32AE448CD8A763 /* package */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 80818734D8744456B5C2CB86 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildConfigurationList = FE1DCDF2BD8E4399AA75B900 /* Build configuration list for PBXAggregateTarget "package" */;
 			buildPhases = (
 				571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				1F9CE03F9CCD440F8C19F0E1 /* PBXTargetDependency */,
+				7155062A62A64B1C96BC2992 /* PBXTargetDependency */,
 			);
 			name = package;
 			productName = package;
@@ -59,231 +59,231 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0149B3525E984B32B46C771A /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack.c */ = {isa = PBXBuildFile; fileRef = 93242355EA23417F9C0965F7 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack.c */; };
-		026636E9253E4F7B8BF2599D /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack3_open.c */ = {isa = PBXBuildFile; fileRef = 27DDBA5A2BDF4378BEE80AAB /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack3_open.c */; };
-		03AEA41B15DD42929E5C93DD /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/tag_utils.c */ = {isa = PBXBuildFile; fileRef = 4ADAA84636EB43E5A649F623 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/tag_utils.c */; };
-		0D8B3E88B059418CB1CB2B94 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/read_words.c */ = {isa = PBXBuildFile; fileRef = 46CE05520C6A4D309531114A /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/read_words.c */; };
-		0E3907EC747D438E8CEEE13F /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack.c */ = {isa = PBXBuildFile; fileRef = 42B4D9EFEB5849879761C258 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack.c */; };
-		116611FAFF454D6CB81F72CF /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_x64.S */ = {isa = PBXBuildFile; fileRef = 89EEC170C91B425FBDF0744F /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_x64.S */; };
-		13C7CD0F2ABB40B0BA8DFBF5 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/open_utils.c */ = {isa = PBXBuildFile; fileRef = 093AF9E02B6D45C085332CCE /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/open_utils.c */; };
-		179F2517F81F4FC2AE3EF64D /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/MusepackDependencies.c */ = {isa = PBXBuildFile; fileRef = 31802BF7276448CDBDD59D85 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/MusepackDependencies.c */; };
-		1B4EA5D52FF5464FB673F434 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/WavPackDecoder.cpp */ = {isa = PBXBuildFile; fileRef = 6403838D09B94C35A9C68A1E /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/WavPackDecoder.cpp */; };
-		28AD55A80471481281C88E3F /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/Common.cpp */ = {isa = PBXBuildFile; fileRef = 8A2AA52E67144F6B8725ABBD /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/Common.cpp */; };
-		29718B3619EF42AEBBBC86E5 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_armv7.S */ = {isa = PBXBuildFile; fileRef = D10F28A011B745B285E18197 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_armv7.S */; };
-		2AF196AA5E684481A6318E92 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/wavpack_version.h */ = {isa = PBXBuildFile; fileRef = 09600A81914844738CBB5AD5 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/wavpack_version.h */; };
-		3EDDFC5911B4492A9C2C5BE5 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/OpusDecoder.cpp */ = {isa = PBXBuildFile; fileRef = 6740B59005414B81A6AFDFCB /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/OpusDecoder.cpp */; };
-		40955EE122614B3995AC7F83 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = B902D96AA0794783B96CD075 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/CMakeLists.txt */; };
-		4204C5DD2D6849F2A6AD33EC /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_dsd.c */ = {isa = PBXBuildFile; fileRef = 41C289C3A0ED48EA9CEF0429 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_dsd.c */; };
-		51C6337313DB470CBDD96AD5 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/entropy_utils.c */ = {isa = PBXBuildFile; fileRef = E298A1829BF64FAEBC1EAD15 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/entropy_utils.c */; };
-		550046D2D8EB4211A89A55AD /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/include/libnyquist/Encoders.h */ = {isa = PBXBuildFile; fileRef = F7ED58197F3643EC997FE263 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/include/libnyquist/Encoders.h */; };
-		56650D5DF4624F6CA1C6E07F /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_dns.c */ = {isa = PBXBuildFile; fileRef = 59192A7AB9434F75B5F00C5C /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_dns.c */; };
-		5BE4579FCAEF4858BEFDEA8B /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack3.h */ = {isa = PBXBuildFile; fileRef = 98909354976240F082690799 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack3.h */; };
-		62401A8C964A469389CAD8E3 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/extra1.c */ = {isa = PBXBuildFile; fileRef = 813EDAD271FF430698086046 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/extra1.c */; };
-		66BCC25F96464DD4BC625BC7 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack3.c */ = {isa = PBXBuildFile; fileRef = F530120D5464456EA9D2AAA2 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack3.c */; };
-		697F5CC4CF16418BBD690FE0 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/tags.c */ = {isa = PBXBuildFile; fileRef = B63596A134D34FCE8A152C5D /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/tags.c */; };
-		6A74A2B160F84105BCDD930C /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_x86.S */ = {isa = PBXBuildFile; fileRef = EF0659D21EF54965888CEEB8 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_x86.S */; };
-		6BAEFDE3D1AB405C8BB40562 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_x64.asm */ = {isa = PBXBuildFile; fileRef = FB1F2EEEB1874A0EA56927D3 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_x64.asm */; };
-		6E7FCE1AC77B4CDBB8CDFFFA /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/decorr_tables.h */ = {isa = PBXBuildFile; fileRef = 77276463C171404BA917CC6C /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/decorr_tables.h */; };
-		733F32E34F1642AB94B0E781 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_x86.S */ = {isa = PBXBuildFile; fileRef = 22B4273806E947CB9FE322DC /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_x86.S */; };
-		740C3E5909EE42EDA9B6FEAC /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/include/libnyquist/Decoders.h */ = {isa = PBXBuildFile; fileRef = DFEAB86386ED4329A5DDBA85 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/include/libnyquist/Decoders.h */; };
-		74D9C30EF8784FF7880FB818 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/write_words.c */ = {isa = PBXBuildFile; fileRef = 93332FC2A7844868AB0E1ED9 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/write_words.c */; };
-		7A19592E24C34EE087B4E194 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/LabSound/third_party/libnyquist/CMakeFiles/libnyquist.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 897714A2164C490A8AA73FD0 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/LabSound/third_party/libnyquist/CMakeFiles/libnyquist.dir/Info.plist */; };
-		86037F1767CD4C82A01180E9 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/OpusDependencies.c */ = {isa = PBXBuildFile; fileRef = 129B102A42234A0C8A09EEDF /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/OpusDependencies.c */; };
-		909AD1478D4B45668D06879C /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/WavDecoder.cpp */ = {isa = PBXBuildFile; fileRef = C3A80694C4A249448328DCAE /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/WavDecoder.cpp */; };
-		930B6C49AAC24E4487BF8740 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/FlacDependencies.c */ = {isa = PBXBuildFile; fileRef = 5A94BD1FDC2F4ECCBE1F670F /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/FlacDependencies.c */; };
-		99F621671ED44463AA7B27B1 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/VorbisDecoder.cpp */ = {isa = PBXBuildFile; fileRef = BA27F7D3703345BDAAE1A9EB /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/VorbisDecoder.cpp */; };
-		9C44F5C48FEB42699960FB20 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/wavpack_local.h */ = {isa = PBXBuildFile; fileRef = D6099F631AC448F38B3B8863 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/wavpack_local.h */; };
-		A0F678E156574C5D974C25DF /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_x86.asm */ = {isa = PBXBuildFile; fileRef = 0C0051FD92844E049A6545C7 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_x86.asm */; };
-		A7B142D7611E4B748B64F08F /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_x64.S */ = {isa = PBXBuildFile; fileRef = 2EAFC39B93DF4DF383F489C0 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_x64.S */; };
-		A8E7E8EE713C4841A05DC521 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_x64.asm */ = {isa = PBXBuildFile; fileRef = BD6CD5B1433741099059AB62 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_x64.asm */; };
-		A98FFF1D528347609054880C /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_x86.asm */ = {isa = PBXBuildFile; fileRef = 78F022E9B26743D49207A756 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_x86.asm */; };
-		AA32131E781748B8A1CC24CE /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/VorbisDependencies.c */ = {isa = PBXBuildFile; fileRef = F394A07E1380463DB348E68F /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/VorbisDependencies.c */; };
-		AB5D1661315A4F7F98ED4485 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/MusepackDecoder.cpp */ = {isa = PBXBuildFile; fileRef = 887423D1A5534600BBC6EED9 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/MusepackDecoder.cpp */; };
-		AF24CEBE3BAB4BDF89767F78 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/FlacDecoder.cpp */ = {isa = PBXBuildFile; fileRef = BCF5A7E52B17424384D129E4 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/FlacDecoder.cpp */; };
-		AFA5B8F858484A88A9740DD7 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_floats.c */ = {isa = PBXBuildFile; fileRef = 6A1D43F84FA444618C31DA34 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_floats.c */; };
-		B240D03B71A64D2B936C9F29 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_floats.c */ = {isa = PBXBuildFile; fileRef = DB8E4F3D86844E649BD91060 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_floats.c */; };
-		B3555712F47F44E786FCDFFB /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/decorr_utils.c */ = {isa = PBXBuildFile; fileRef = 13BBECC0FBBC4B599F749E8B /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/decorr_utils.c */; };
-		BA04C9059F164A06B0C309B2 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_utils.c */ = {isa = PBXBuildFile; fileRef = 4316B6A69DF141458B990768 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_utils.c */; };
-		C5A6AD2B6E1242E8A7D957FD /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/common_utils.c */ = {isa = PBXBuildFile; fileRef = BB731EBBE5FF4AA3A86F3E0E /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/common_utils.c */; };
-		C5E4727B531D4D019FD83021 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/open_filename.c */ = {isa = PBXBuildFile; fileRef = FC90B1FF9E9D48B7876DFD8D /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/open_filename.c */; };
-		C64CD5BA06B24BBEA2E6FADF /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/open_raw.c */ = {isa = PBXBuildFile; fileRef = B4EF8DBB3FDC4582A375B6C3 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/open_raw.c */; };
-		D90AFDC775D64C5A9F61199F /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_dsd.c */ = {isa = PBXBuildFile; fileRef = D4858E81E1324AF599D548C0 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_dsd.c */; };
-		D9FC457629B24D878A1D79C4 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/open_legacy.c */ = {isa = PBXBuildFile; fileRef = 7B844F2E45AE4F5DBE548F10 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/open_legacy.c */; };
-		DBAD8B2E00FC4172A0B8306C /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/extra2.c */ = {isa = PBXBuildFile; fileRef = 1983C5566F454953ACCFE4CA /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/extra2.c */; };
-		DC1FEDD22E2048D4B5D8EF77 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 87FBC53CC9DF435CAFC91A3F /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/CMakeLists.txt */; };
-		DFD2702F371E42158FD54447 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/Mp3Decoder.cpp */ = {isa = PBXBuildFile; fileRef = 0A98124BE42E4D59B6B53928 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/Mp3Decoder.cpp */; };
-		E031BEA736DE4B428BE34684 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_utils.c */ = {isa = PBXBuildFile; fileRef = BC012D814BE643ECA0B189D5 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_utils.c */; };
-		E5C833421737476AAD1C9AA1 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_seek.c */ = {isa = PBXBuildFile; fileRef = CF0FAD51588B4C94BDEB2C42 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_seek.c */; };
-		E8192D2E416C4C48A0519464 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/Encoders.cpp */ = {isa = PBXBuildFile; fileRef = 7C5EEB5DAB3544939403ACBA /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/Encoders.cpp */; };
-		F6B3128617B0475D9DDC75CA /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/include/libnyquist/Common.h */ = {isa = PBXBuildFile; fileRef = 346EBECA17434D49AFB04FF6 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/include/libnyquist/Common.h */; };
-		F940D20F314F415CA94141D1 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack3_seek.c */ = {isa = PBXBuildFile; fileRef = 1D17ACE72B304E078BBADFFE /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack3_seek.c */; };
-		FABCCBA5F65148138D6C7504 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/LabSound/third_party/libnyquist/CMakeFiles/libwavpack.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 44C8FC6CDCBB4AA9BAE879AA /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/LabSound/third_party/libnyquist/CMakeFiles/libwavpack.dir/Info.plist */; };
+		01EC306F206E48B69DF886FE /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_x64.asm */ = {isa = PBXBuildFile; fileRef = 1657B45BD4D844C2A62E9619 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_x64.asm */; };
+		0346372AB20345FABFF0F304 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_x64.asm */ = {isa = PBXBuildFile; fileRef = A51C697EEC29424D8D5AD5E7 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_x64.asm */; };
+		053EFC6857E147EF8B325051 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/include/libnyquist/Common.h */ = {isa = PBXBuildFile; fileRef = 57EC76A6016A48309A1DB83C /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/include/libnyquist/Common.h */; };
+		05BF1A1A91CB45D985ECFA67 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/read_words.c */ = {isa = PBXBuildFile; fileRef = 4FC19A51065848E8BD6FC0EE /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/read_words.c */; };
+		08531557B1264EB595975569 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/include/libnyquist/Decoders.h */ = {isa = PBXBuildFile; fileRef = 307FDDC4FDF642D8A146F19A /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/include/libnyquist/Decoders.h */; };
+		0F00ED5E839B432DB64A2A88 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/OpusDependencies.c */ = {isa = PBXBuildFile; fileRef = 60FDD058EC7D4CC18C3FB36F /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/OpusDependencies.c */; };
+		0FFE9CC3BC9E4899AA13CBFD /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/decorr_tables.h */ = {isa = PBXBuildFile; fileRef = 277CAAA6FF934B299E9AA5C6 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/decorr_tables.h */; };
+		1CABFB55D8224B059DA721A5 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/MusepackDecoder.cpp */ = {isa = PBXBuildFile; fileRef = 35BED9C66F33495FB3A9336C /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/MusepackDecoder.cpp */; };
+		1E58B515222F43409FBC27BE /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_x64.S */ = {isa = PBXBuildFile; fileRef = 37D018CAEEFD4C44AFCBD142 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_x64.S */; };
+		23864F971F8E40FBB0930F74 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/wavpack_version.h */ = {isa = PBXBuildFile; fileRef = 3DB3C905363640148CC04695 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/wavpack_version.h */; };
+		28BE07A9D1EE4180AEBB7C0A /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/open_raw.c */ = {isa = PBXBuildFile; fileRef = C0B3783DE27C4EA191951EF9 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/open_raw.c */; };
+		2D7B902B7A1D4D5EB02D4BD9 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_x86.asm */ = {isa = PBXBuildFile; fileRef = E031999E9F1540B5B2901CE2 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_x86.asm */; };
+		2F4A04E0963A4722B95F683D /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = D4C1D90D838B4DAFA7908875 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/CMakeLists.txt */; };
+		356B8259B8384F0B842226D8 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/Encoders.cpp */ = {isa = PBXBuildFile; fileRef = 642F367F16AF427287F3AF70 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/Encoders.cpp */; };
+		38CD3C3E43F447E48E3ED91F /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_floats.c */ = {isa = PBXBuildFile; fileRef = A906C9838C854F1EA2B9F817 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_floats.c */; };
+		3B6AF1082B7F4B769151A134 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/WavPackDecoder.cpp */ = {isa = PBXBuildFile; fileRef = 45005427F13C49D89E68EED4 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/WavPackDecoder.cpp */; };
+		417CD96EA8DB42599EAD3C3E /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/WavDecoder.cpp */ = {isa = PBXBuildFile; fileRef = F80988FCFF3C409F80CF6EFB /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/WavDecoder.cpp */; };
+		4FDD12F38BB7438FA2EC512E /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_x86.asm */ = {isa = PBXBuildFile; fileRef = 2FBF011CBD78452FB6C2002D /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_x86.asm */; };
+		54556B8B346A4112A2962D50 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/VorbisDependencies.c */ = {isa = PBXBuildFile; fileRef = 8019E78BA4A047BCAA8927BD /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/VorbisDependencies.c */; };
+		59E025468AC3477391D5CFA6 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/FlacDependencies.c */ = {isa = PBXBuildFile; fileRef = E4EFCFBDDF004369A46D1E97 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/FlacDependencies.c */; };
+		5F7E6A97EC084548979867AD /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/tags.c */ = {isa = PBXBuildFile; fileRef = 9CF10F5C19F04D73898293E5 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/tags.c */; };
+		61C2B1403DD74070BED60B57 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/extra1.c */ = {isa = PBXBuildFile; fileRef = B1CBF52B766D44E7B19BF234 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/extra1.c */; };
+		64DF099CBBD246D3AF4DFDFA /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/FlacDecoder.cpp */ = {isa = PBXBuildFile; fileRef = FBB4CA743F0C470287ED1924 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/FlacDecoder.cpp */; };
+		6640092EBD784829989E8AA4 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack.c */ = {isa = PBXBuildFile; fileRef = D0F4EE71F07B4AF78B0D6056 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack.c */; };
+		68EBC7246C1C40C88B74C2F0 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_seek.c */ = {isa = PBXBuildFile; fileRef = 2BAEA9893E3B4C4B8BC35089 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_seek.c */; };
+		727D91CDE2CA4D728BA1F7B5 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 4F220643AE44417BBB50F9F5 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/CMakeLists.txt */; };
+		7455F5FE68D94A0B8FDC31B6 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/LabSound/third_party/libnyquist/CMakeFiles/libwavpack.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 3E02172B121647E7A8FBC8C9 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/LabSound/third_party/libnyquist/CMakeFiles/libwavpack.dir/Info.plist */; };
+		74D6F199AF3C437B91478953 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/open_utils.c */ = {isa = PBXBuildFile; fileRef = 06E5C9B696CF48DDAD2994C5 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/open_utils.c */; };
+		77A6B3FF30D04D1DAEFF0D7F /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/open_legacy.c */ = {isa = PBXBuildFile; fileRef = F146B450793B4534993CD201 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/open_legacy.c */; };
+		7ADC4B08339F4608B0194286 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack3_seek.c */ = {isa = PBXBuildFile; fileRef = 142BEB9B8559487BA0441B10 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack3_seek.c */; };
+		7D21F71E6D00460CBB22D0BD /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/open_filename.c */ = {isa = PBXBuildFile; fileRef = 8872EFB83CDE41F8A647BFA7 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/open_filename.c */; };
+		7EC9FDB587E248EFB1F4C312 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/include/libnyquist/Encoders.h */ = {isa = PBXBuildFile; fileRef = CDD4376113524622BFBD2D60 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/include/libnyquist/Encoders.h */; };
+		85F304719D3E47DDBF46BE97 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/decorr_utils.c */ = {isa = PBXBuildFile; fileRef = 41837013351E4C8B84D93AF5 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/decorr_utils.c */; };
+		8A700F54272E429E9CD7F42A /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack3.h */ = {isa = PBXBuildFile; fileRef = 7202B28E3D644DFD980D1F08 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack3.h */; };
+		8DD42E988EF54E799F86A2BD /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/MusepackDependencies.c */ = {isa = PBXBuildFile; fileRef = 4EE8DAA7ADC649129477D313 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/MusepackDependencies.c */; };
+		8DFC5960FA95452AB071428C /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_utils.c */ = {isa = PBXBuildFile; fileRef = F05E371EDCC547E6A9D87842 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_utils.c */; };
+		954E4901077645BEBE320D37 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/wavpack_local.h */ = {isa = PBXBuildFile; fileRef = D9DCFDCD72944A68B487F0C2 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/wavpack_local.h */; };
+		968C2F518C924B3AB9CAB615 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/VorbisDecoder.cpp */ = {isa = PBXBuildFile; fileRef = 0EF25282701140B499B5631F /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/VorbisDecoder.cpp */; };
+		9720C32192494A12A24077FC /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_armv7.S */ = {isa = PBXBuildFile; fileRef = 17B2ABB87E2F4610AACE2CC1 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_armv7.S */; };
+		A0211DACA31B4DF489AD2BD6 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/tag_utils.c */ = {isa = PBXBuildFile; fileRef = 88EBDC67BC1449EE934E3A98 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/tag_utils.c */; };
+		A039BC67679343109952DB23 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/OpusDecoder.cpp */ = {isa = PBXBuildFile; fileRef = 3E803772C7124E3090E16341 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/OpusDecoder.cpp */; };
+		A460DF218D45482192A3CD5E /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack3.c */ = {isa = PBXBuildFile; fileRef = 85CD80BF2F7C436C9D1C115B /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack3.c */; };
+		A7EDC117B9FF4ED6B784D563 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_floats.c */ = {isa = PBXBuildFile; fileRef = 0DBF6833D81B427E87881CC9 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_floats.c */; };
+		AA6B9533384B488499E3FD44 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/LabSound/third_party/libnyquist/CMakeFiles/libnyquist.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = A59A6077678E4C328D9306FA /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/LabSound/third_party/libnyquist/CMakeFiles/libnyquist.dir/Info.plist */; };
+		AB5C95E464644A8995F0DA28 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_x86.S */ = {isa = PBXBuildFile; fileRef = BA1C8F10D6E444D4B83C9959 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_x86.S */; };
+		AC8F52B0D5AF4A4492FEA1A4 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/Mp3Decoder.cpp */ = {isa = PBXBuildFile; fileRef = 70773E6A3C184CB7AD36DD00 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/Mp3Decoder.cpp */; };
+		BB8FAA103C0F489E9FB6980D /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/write_words.c */ = {isa = PBXBuildFile; fileRef = 8ED949C8505A46C793E3F9D4 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/write_words.c */; };
+		BB91C81B943F40A1AEEDE8D9 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_x86.S */ = {isa = PBXBuildFile; fileRef = C317102514624D2FA6765FB4 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_x86.S */; };
+		BE6CE60B26704558AE78D8FC /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/entropy_utils.c */ = {isa = PBXBuildFile; fileRef = 4B86AA2EB8464861AC54C3E2 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/entropy_utils.c */; };
+		CA1AC3D132FC49FCB87DA864 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_dsd.c */ = {isa = PBXBuildFile; fileRef = 6E761CF49C6C40C8A7B40300 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_dsd.c */; };
+		CF2730974B674F6B822896D2 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/common_utils.c */ = {isa = PBXBuildFile; fileRef = A0CBEF302DDC47E18EDE365A /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/common_utils.c */; };
+		D0046607FEA4404E89E2D5FC /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_utils.c */ = {isa = PBXBuildFile; fileRef = EB8E6B36DF8248CABB527EAE /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_utils.c */; };
+		D532D367BB2B44C186B61A8B /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/Common.cpp */ = {isa = PBXBuildFile; fileRef = CC06F5E781DC47E2A4923C3A /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/Common.cpp */; };
+		DE855B83D1C047308036DC74 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/extra2.c */ = {isa = PBXBuildFile; fileRef = B6830860C8AB4C75AC3C6692 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/extra2.c */; };
+		E39EA60174144ED6A4E29BB0 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack3_open.c */ = {isa = PBXBuildFile; fileRef = AE7E1F8E11C54CD9B4468237 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack3_open.c */; };
+		E4AD7491D2FF43818EB92A28 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack.c */ = {isa = PBXBuildFile; fileRef = E75E4BB993494FA889AD3194 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack.c */; };
+		E7C6ABB286FA4F76903A4C43 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_dns.c */ = {isa = PBXBuildFile; fileRef = 7133BDA7C6044EA6ACBF15C0 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_dns.c */; };
+		EE1977E7B679452D8C17F34A /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_x64.S */ = {isa = PBXBuildFile; fileRef = 42F5659B427545CE9233E634 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_x64.S */; };
+		F9E061479E53427FAA3991A0 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_dsd.c */ = {isa = PBXBuildFile; fileRef = FDC98C1BD07E411D97AF4BB2 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_dsd.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		75735726655748C496C4B172 /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-		AE359C61A9A3499C8BDE99A9 /* MinSizeRel */ = {
+		44BB47CC8CCA4D20BB057FBF /* MinSizeRel */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = MinSizeRel;
 		};
-		B4B20311B7BE49D5A07B32E8 /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		CF39E3111E824B5993DD6E10 /* Debug */ = {
+		643103A860744C608CE62B8F /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Debug;
 		};
+		B00CF7FF03B84C2CAE3B0094 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		C0910EED463F44948F8707E8 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		4008FFE70D1B4B9499207563 /* PBXContainerItemProxy */ = {
+		1828EC327E794D86ACDD57C6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 537CC1BE463D407EAE0D9235 /* Project object */;
+			containerPortal = E88325316ED6466298F49E9B /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = AED1B9D6AC3D09111D33A4BA;
 			remoteInfo = libnyquist;
 		};
-		41E0634B1C8F49B0A16050B5 /* PBXContainerItemProxy */ = {
+		8CFDC7C7F8524EC382A7939B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 537CC1BE463D407EAE0D9235 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8F187D4245B8C44DEEAC411A;
-			remoteInfo = libwavpack;
-		};
-		7640F88A7BE54AB2933C4B7A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 537CC1BE463D407EAE0D9235 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8F187D4245B8C44DEEAC411A;
-			remoteInfo = libwavpack;
-		};
-		7F064D7E798647FE86A3AF86 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 537CC1BE463D407EAE0D9235 /* Project object */;
+			containerPortal = E88325316ED6466298F49E9B /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 67FC0E9AA23AA0206FB19AFB;
 			remoteInfo = ALL_BUILD;
 		};
-		8A35DECAFAA34109A35E7EEF /* PBXContainerItemProxy */ = {
+		9DDA85885C654B06852D585A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 537CC1BE463D407EAE0D9235 /* Project object */;
+			containerPortal = E88325316ED6466298F49E9B /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 45D3B2E6BF424B83C71F419C;
 			remoteInfo = ZERO_CHECK;
 		};
-		9DB7FF95BD3A4B508FDFA341 /* PBXContainerItemProxy */ = {
+		A16F9450934A4D6DBF41B8C1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 537CC1BE463D407EAE0D9235 /* Project object */;
+			containerPortal = E88325316ED6466298F49E9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F187D4245B8C44DEEAC411A;
+			remoteInfo = libwavpack;
+		};
+		A8F03C099EFE4501A8168670 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E88325316ED6466298F49E9B /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 45D3B2E6BF424B83C71F419C;
 			remoteInfo = ZERO_CHECK;
 		};
-		B218768CFAA3445DBC75EA29 /* PBXContainerItemProxy */ = {
+		BD4CCE3FD1674FDE82B6FC24 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 537CC1BE463D407EAE0D9235 /* Project object */;
+			containerPortal = E88325316ED6466298F49E9B /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 45D3B2E6BF424B83C71F419C;
 			remoteInfo = ZERO_CHECK;
 		};
-		CE0F1BF8653545E3BEDE6A6D /* PBXContainerItemProxy */ = {
+		BEE57425393D4159A7282174 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 537CC1BE463D407EAE0D9235 /* Project object */;
+			containerPortal = E88325316ED6466298F49E9B /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 67FC0E9AA23AA0206FB19AFB;
 			remoteInfo = ALL_BUILD;
+		};
+		FCE4819895454EC6A82ED7FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E88325316ED6466298F49E9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F187D4245B8C44DEEAC411A;
+			remoteInfo = libwavpack;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06C5A264FB444975A390E44E /* libwavpack */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblibwavpack_d.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		093AF9E02B6D45C085332CCE /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/open_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = open_utils.c; path = third_party/wavpack/src/open_utils.c; sourceTree = SOURCE_ROOT; };
-		09600A81914844738CBB5AD5 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/wavpack_version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = wavpack_version.h; path = third_party/wavpack/src/wavpack_version.h; sourceTree = SOURCE_ROOT; };
-		0A98124BE42E4D59B6B53928 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/Mp3Decoder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Mp3Decoder.cpp; path = src/Mp3Decoder.cpp; sourceTree = SOURCE_ROOT; };
-		0C0051FD92844E049A6545C7 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_x86.asm */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = pack_x86.asm; path = third_party/wavpack/src/pack_x86.asm; sourceTree = SOURCE_ROOT; };
-		129B102A42234A0C8A09EEDF /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/OpusDependencies.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = OpusDependencies.c; path = src/OpusDependencies.c; sourceTree = SOURCE_ROOT; };
-		134DDD8FB083493F8E5CC61D /* libnyquist */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblibnyquist_d.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		13BBECC0FBBC4B599F749E8B /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/decorr_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = decorr_utils.c; path = third_party/wavpack/src/decorr_utils.c; sourceTree = SOURCE_ROOT; };
-		1983C5566F454953ACCFE4CA /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/extra2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = extra2.c; path = third_party/wavpack/src/extra2.c; sourceTree = SOURCE_ROOT; };
-		1D17ACE72B304E078BBADFFE /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack3_seek.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = unpack3_seek.c; path = third_party/wavpack/src/unpack3_seek.c; sourceTree = SOURCE_ROOT; };
-		22B4273806E947CB9FE322DC /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_x86.S */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = unpack_x86.S; path = third_party/wavpack/src/unpack_x86.S; sourceTree = SOURCE_ROOT; };
-		27DDBA5A2BDF4378BEE80AAB /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack3_open.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = unpack3_open.c; path = third_party/wavpack/src/unpack3_open.c; sourceTree = SOURCE_ROOT; };
-		2EAFC39B93DF4DF383F489C0 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_x64.S */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = pack_x64.S; path = third_party/wavpack/src/pack_x64.S; sourceTree = SOURCE_ROOT; };
-		31802BF7276448CDBDD59D85 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/MusepackDependencies.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = MusepackDependencies.c; path = src/MusepackDependencies.c; sourceTree = SOURCE_ROOT; };
-		3321EC6C7ACB4C6DA51F8E6D /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		346EBECA17434D49AFB04FF6 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/include/libnyquist/Common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Common.h; path = include/libnyquist/Common.h; sourceTree = SOURCE_ROOT; };
-		41C289C3A0ED48EA9CEF0429 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_dsd.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = unpack_dsd.c; path = third_party/wavpack/src/unpack_dsd.c; sourceTree = SOURCE_ROOT; };
-		42B4D9EFEB5849879761C258 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pack.c; path = third_party/wavpack/src/pack.c; sourceTree = SOURCE_ROOT; };
-		4316B6A69DF141458B990768 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pack_utils.c; path = third_party/wavpack/src/pack_utils.c; sourceTree = SOURCE_ROOT; };
-		44C8FC6CDCBB4AA9BAE879AA /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/LabSound/third_party/libnyquist/CMakeFiles/libwavpack.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/LabSound/third_party/libnyquist/CMakeFiles/libwavpack.dir/Info.plist"; sourceTree = "<absolute>"; };
-		46CE05520C6A4D309531114A /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/read_words.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = read_words.c; path = third_party/wavpack/src/read_words.c; sourceTree = SOURCE_ROOT; };
-		4ADAA84636EB43E5A649F623 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/tag_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tag_utils.c; path = third_party/wavpack/src/tag_utils.c; sourceTree = SOURCE_ROOT; };
-		59192A7AB9434F75B5F00C5C /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_dns.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pack_dns.c; path = third_party/wavpack/src/pack_dns.c; sourceTree = SOURCE_ROOT; };
-		5A94BD1FDC2F4ECCBE1F670F /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/FlacDependencies.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = FlacDependencies.c; path = src/FlacDependencies.c; sourceTree = SOURCE_ROOT; };
-		6403838D09B94C35A9C68A1E /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/WavPackDecoder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = WavPackDecoder.cpp; path = src/WavPackDecoder.cpp; sourceTree = SOURCE_ROOT; };
-		6740B59005414B81A6AFDFCB /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/OpusDecoder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = OpusDecoder.cpp; path = src/OpusDecoder.cpp; sourceTree = SOURCE_ROOT; };
-		6A1D43F84FA444618C31DA34 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_floats.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = unpack_floats.c; path = third_party/wavpack/src/unpack_floats.c; sourceTree = SOURCE_ROOT; };
-		77276463C171404BA917CC6C /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/decorr_tables.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = decorr_tables.h; path = third_party/wavpack/src/decorr_tables.h; sourceTree = SOURCE_ROOT; };
-		78F022E9B26743D49207A756 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_x86.asm */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = unpack_x86.asm; path = third_party/wavpack/src/unpack_x86.asm; sourceTree = SOURCE_ROOT; };
-		7B844F2E45AE4F5DBE548F10 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/open_legacy.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = open_legacy.c; path = third_party/wavpack/src/open_legacy.c; sourceTree = SOURCE_ROOT; };
-		7C5EEB5DAB3544939403ACBA /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/Encoders.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Encoders.cpp; path = src/Encoders.cpp; sourceTree = SOURCE_ROOT; };
-		813EDAD271FF430698086046 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/extra1.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = extra1.c; path = third_party/wavpack/src/extra1.c; sourceTree = SOURCE_ROOT; };
-		87FBC53CC9DF435CAFC91A3F /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		887423D1A5534600BBC6EED9 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/MusepackDecoder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MusepackDecoder.cpp; path = src/MusepackDecoder.cpp; sourceTree = SOURCE_ROOT; };
-		897714A2164C490A8AA73FD0 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/LabSound/third_party/libnyquist/CMakeFiles/libnyquist.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/LabSound/third_party/libnyquist/CMakeFiles/libnyquist.dir/Info.plist"; sourceTree = "<absolute>"; };
-		89EEC170C91B425FBDF0744F /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_x64.S */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = unpack_x64.S; path = third_party/wavpack/src/unpack_x64.S; sourceTree = SOURCE_ROOT; };
-		8A2AA52E67144F6B8725ABBD /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/Common.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Common.cpp; path = src/Common.cpp; sourceTree = SOURCE_ROOT; };
-		93242355EA23417F9C0965F7 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = unpack.c; path = third_party/wavpack/src/unpack.c; sourceTree = SOURCE_ROOT; };
-		93332FC2A7844868AB0E1ED9 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/write_words.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = write_words.c; path = third_party/wavpack/src/write_words.c; sourceTree = SOURCE_ROOT; };
-		98909354976240F082690799 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = unpack3.h; path = third_party/wavpack/src/unpack3.h; sourceTree = SOURCE_ROOT; };
-		B4EF8DBB3FDC4582A375B6C3 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/open_raw.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = open_raw.c; path = third_party/wavpack/src/open_raw.c; sourceTree = SOURCE_ROOT; };
-		B63596A134D34FCE8A152C5D /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/tags.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tags.c; path = third_party/wavpack/src/tags.c; sourceTree = SOURCE_ROOT; };
-		B902D96AA0794783B96CD075 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		BA27F7D3703345BDAAE1A9EB /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/VorbisDecoder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = VorbisDecoder.cpp; path = src/VorbisDecoder.cpp; sourceTree = SOURCE_ROOT; };
-		BB731EBBE5FF4AA3A86F3E0E /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/common_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = common_utils.c; path = third_party/wavpack/src/common_utils.c; sourceTree = SOURCE_ROOT; };
-		BC012D814BE643ECA0B189D5 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = unpack_utils.c; path = third_party/wavpack/src/unpack_utils.c; sourceTree = SOURCE_ROOT; };
-		BCF5A7E52B17424384D129E4 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/FlacDecoder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FlacDecoder.cpp; path = src/FlacDecoder.cpp; sourceTree = SOURCE_ROOT; };
-		BD6CD5B1433741099059AB62 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_x64.asm */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = unpack_x64.asm; path = third_party/wavpack/src/unpack_x64.asm; sourceTree = SOURCE_ROOT; };
-		C3A80694C4A249448328DCAE /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/WavDecoder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = WavDecoder.cpp; path = src/WavDecoder.cpp; sourceTree = SOURCE_ROOT; };
-		CF0FAD51588B4C94BDEB2C42 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_seek.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = unpack_seek.c; path = third_party/wavpack/src/unpack_seek.c; sourceTree = SOURCE_ROOT; };
-		D10F28A011B745B285E18197 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_armv7.S */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = unpack_armv7.S; path = third_party/wavpack/src/unpack_armv7.S; sourceTree = SOURCE_ROOT; };
-		D4858E81E1324AF599D548C0 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_dsd.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pack_dsd.c; path = third_party/wavpack/src/pack_dsd.c; sourceTree = SOURCE_ROOT; };
-		D6099F631AC448F38B3B8863 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/wavpack_local.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = wavpack_local.h; path = third_party/wavpack/src/wavpack_local.h; sourceTree = SOURCE_ROOT; };
-		DB8E4F3D86844E649BD91060 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_floats.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pack_floats.c; path = third_party/wavpack/src/pack_floats.c; sourceTree = SOURCE_ROOT; };
-		DFEAB86386ED4329A5DDBA85 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/include/libnyquist/Decoders.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Decoders.h; path = include/libnyquist/Decoders.h; sourceTree = SOURCE_ROOT; };
-		E298A1829BF64FAEBC1EAD15 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/entropy_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = entropy_utils.c; path = third_party/wavpack/src/entropy_utils.c; sourceTree = SOURCE_ROOT; };
-		EF0659D21EF54965888CEEB8 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_x86.S */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = pack_x86.S; path = third_party/wavpack/src/pack_x86.S; sourceTree = SOURCE_ROOT; };
-		F394A07E1380463DB348E68F /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/VorbisDependencies.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = VorbisDependencies.c; path = src/VorbisDependencies.c; sourceTree = SOURCE_ROOT; };
-		F530120D5464456EA9D2AAA2 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack3.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = unpack3.c; path = third_party/wavpack/src/unpack3.c; sourceTree = SOURCE_ROOT; };
-		F7ED58197F3643EC997FE263 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/include/libnyquist/Encoders.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Encoders.h; path = include/libnyquist/Encoders.h; sourceTree = SOURCE_ROOT; };
-		FB1F2EEEB1874A0EA56927D3 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_x64.asm */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = pack_x64.asm; path = third_party/wavpack/src/pack_x64.asm; sourceTree = SOURCE_ROOT; };
-		FC90B1FF9E9D48B7876DFD8D /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/open_filename.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = open_filename.c; path = third_party/wavpack/src/open_filename.c; sourceTree = SOURCE_ROOT; };
+		06E5C9B696CF48DDAD2994C5 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/open_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = open_utils.c; path = third_party/wavpack/src/open_utils.c; sourceTree = SOURCE_ROOT; };
+		0DBF6833D81B427E87881CC9 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_floats.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pack_floats.c; path = third_party/wavpack/src/pack_floats.c; sourceTree = SOURCE_ROOT; };
+		0EF25282701140B499B5631F /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/VorbisDecoder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = VorbisDecoder.cpp; path = src/VorbisDecoder.cpp; sourceTree = SOURCE_ROOT; };
+		142BEB9B8559487BA0441B10 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack3_seek.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = unpack3_seek.c; path = third_party/wavpack/src/unpack3_seek.c; sourceTree = SOURCE_ROOT; };
+		1657B45BD4D844C2A62E9619 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_x64.asm */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = pack_x64.asm; path = third_party/wavpack/src/pack_x64.asm; sourceTree = SOURCE_ROOT; };
+		17B2ABB87E2F4610AACE2CC1 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_armv7.S */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = unpack_armv7.S; path = third_party/wavpack/src/unpack_armv7.S; sourceTree = SOURCE_ROOT; };
+		277CAAA6FF934B299E9AA5C6 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/decorr_tables.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = decorr_tables.h; path = third_party/wavpack/src/decorr_tables.h; sourceTree = SOURCE_ROOT; };
+		2BAEA9893E3B4C4B8BC35089 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_seek.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = unpack_seek.c; path = third_party/wavpack/src/unpack_seek.c; sourceTree = SOURCE_ROOT; };
+		2FBF011CBD78452FB6C2002D /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_x86.asm */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = unpack_x86.asm; path = third_party/wavpack/src/unpack_x86.asm; sourceTree = SOURCE_ROOT; };
+		307FDDC4FDF642D8A146F19A /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/include/libnyquist/Decoders.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Decoders.h; path = include/libnyquist/Decoders.h; sourceTree = SOURCE_ROOT; };
+		35BED9C66F33495FB3A9336C /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/MusepackDecoder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MusepackDecoder.cpp; path = src/MusepackDecoder.cpp; sourceTree = SOURCE_ROOT; };
+		37D018CAEEFD4C44AFCBD142 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_x64.S */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = pack_x64.S; path = third_party/wavpack/src/pack_x64.S; sourceTree = SOURCE_ROOT; };
+		3DB3C905363640148CC04695 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/wavpack_version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = wavpack_version.h; path = third_party/wavpack/src/wavpack_version.h; sourceTree = SOURCE_ROOT; };
+		3E02172B121647E7A8FBC8C9 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/LabSound/third_party/libnyquist/CMakeFiles/libwavpack.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/LabSound/third_party/libnyquist/CMakeFiles/libwavpack.dir/Info.plist"; sourceTree = "<absolute>"; };
+		3E803772C7124E3090E16341 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/OpusDecoder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = OpusDecoder.cpp; path = src/OpusDecoder.cpp; sourceTree = SOURCE_ROOT; };
+		41837013351E4C8B84D93AF5 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/decorr_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = decorr_utils.c; path = third_party/wavpack/src/decorr_utils.c; sourceTree = SOURCE_ROOT; };
+		42F5659B427545CE9233E634 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_x64.S */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = unpack_x64.S; path = third_party/wavpack/src/unpack_x64.S; sourceTree = SOURCE_ROOT; };
+		45005427F13C49D89E68EED4 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/WavPackDecoder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = WavPackDecoder.cpp; path = src/WavPackDecoder.cpp; sourceTree = SOURCE_ROOT; };
+		4B86AA2EB8464861AC54C3E2 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/entropy_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = entropy_utils.c; path = third_party/wavpack/src/entropy_utils.c; sourceTree = SOURCE_ROOT; };
+		4EE8DAA7ADC649129477D313 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/MusepackDependencies.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = MusepackDependencies.c; path = src/MusepackDependencies.c; sourceTree = SOURCE_ROOT; };
+		4F220643AE44417BBB50F9F5 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4FC19A51065848E8BD6FC0EE /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/read_words.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = read_words.c; path = third_party/wavpack/src/read_words.c; sourceTree = SOURCE_ROOT; };
+		548FE6121D784261AF2873C2 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		57EC76A6016A48309A1DB83C /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/include/libnyquist/Common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Common.h; path = include/libnyquist/Common.h; sourceTree = SOURCE_ROOT; };
+		60FDD058EC7D4CC18C3FB36F /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/OpusDependencies.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = OpusDependencies.c; path = src/OpusDependencies.c; sourceTree = SOURCE_ROOT; };
+		642F367F16AF427287F3AF70 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/Encoders.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Encoders.cpp; path = src/Encoders.cpp; sourceTree = SOURCE_ROOT; };
+		6E761CF49C6C40C8A7B40300 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_dsd.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = unpack_dsd.c; path = third_party/wavpack/src/unpack_dsd.c; sourceTree = SOURCE_ROOT; };
+		70773E6A3C184CB7AD36DD00 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/Mp3Decoder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Mp3Decoder.cpp; path = src/Mp3Decoder.cpp; sourceTree = SOURCE_ROOT; };
+		7133BDA7C6044EA6ACBF15C0 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_dns.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pack_dns.c; path = third_party/wavpack/src/pack_dns.c; sourceTree = SOURCE_ROOT; };
+		7202B28E3D644DFD980D1F08 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = unpack3.h; path = third_party/wavpack/src/unpack3.h; sourceTree = SOURCE_ROOT; };
+		8019E78BA4A047BCAA8927BD /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/VorbisDependencies.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = VorbisDependencies.c; path = src/VorbisDependencies.c; sourceTree = SOURCE_ROOT; };
+		85CD80BF2F7C436C9D1C115B /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack3.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = unpack3.c; path = third_party/wavpack/src/unpack3.c; sourceTree = SOURCE_ROOT; };
+		8608BA70E84347928B64F322 /* libnyquist */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblibnyquist_d.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8872EFB83CDE41F8A647BFA7 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/open_filename.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = open_filename.c; path = third_party/wavpack/src/open_filename.c; sourceTree = SOURCE_ROOT; };
+		88EBDC67BC1449EE934E3A98 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/tag_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tag_utils.c; path = third_party/wavpack/src/tag_utils.c; sourceTree = SOURCE_ROOT; };
+		8ED949C8505A46C793E3F9D4 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/write_words.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = write_words.c; path = third_party/wavpack/src/write_words.c; sourceTree = SOURCE_ROOT; };
+		9CF10F5C19F04D73898293E5 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/tags.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tags.c; path = third_party/wavpack/src/tags.c; sourceTree = SOURCE_ROOT; };
+		A0CBEF302DDC47E18EDE365A /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/common_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = common_utils.c; path = third_party/wavpack/src/common_utils.c; sourceTree = SOURCE_ROOT; };
+		A51C697EEC29424D8D5AD5E7 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_x64.asm */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = unpack_x64.asm; path = third_party/wavpack/src/unpack_x64.asm; sourceTree = SOURCE_ROOT; };
+		A59A6077678E4C328D9306FA /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/LabSound/third_party/libnyquist/CMakeFiles/libnyquist.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/LabSound/third_party/libnyquist/CMakeFiles/libnyquist.dir/Info.plist"; sourceTree = "<absolute>"; };
+		A906C9838C854F1EA2B9F817 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_floats.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = unpack_floats.c; path = third_party/wavpack/src/unpack_floats.c; sourceTree = SOURCE_ROOT; };
+		AE7E1F8E11C54CD9B4468237 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack3_open.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = unpack3_open.c; path = third_party/wavpack/src/unpack3_open.c; sourceTree = SOURCE_ROOT; };
+		B1CBF52B766D44E7B19BF234 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/extra1.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = extra1.c; path = third_party/wavpack/src/extra1.c; sourceTree = SOURCE_ROOT; };
+		B6830860C8AB4C75AC3C6692 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/extra2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = extra2.c; path = third_party/wavpack/src/extra2.c; sourceTree = SOURCE_ROOT; };
+		B8349DD99F244020AD4A36FD /* libwavpack */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblibwavpack_d.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1C8F10D6E444D4B83C9959 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_x86.S */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = pack_x86.S; path = third_party/wavpack/src/pack_x86.S; sourceTree = SOURCE_ROOT; };
+		C0B3783DE27C4EA191951EF9 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/open_raw.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = open_raw.c; path = third_party/wavpack/src/open_raw.c; sourceTree = SOURCE_ROOT; };
+		C317102514624D2FA6765FB4 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_x86.S */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = unpack_x86.S; path = third_party/wavpack/src/unpack_x86.S; sourceTree = SOURCE_ROOT; };
+		CC06F5E781DC47E2A4923C3A /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/Common.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Common.cpp; path = src/Common.cpp; sourceTree = SOURCE_ROOT; };
+		CDD4376113524622BFBD2D60 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/include/libnyquist/Encoders.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Encoders.h; path = include/libnyquist/Encoders.h; sourceTree = SOURCE_ROOT; };
+		D0F4EE71F07B4AF78B0D6056 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = unpack.c; path = third_party/wavpack/src/unpack.c; sourceTree = SOURCE_ROOT; };
+		D4C1D90D838B4DAFA7908875 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D9DCFDCD72944A68B487F0C2 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/wavpack_local.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = wavpack_local.h; path = third_party/wavpack/src/wavpack_local.h; sourceTree = SOURCE_ROOT; };
+		E031999E9F1540B5B2901CE2 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_x86.asm */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = pack_x86.asm; path = third_party/wavpack/src/pack_x86.asm; sourceTree = SOURCE_ROOT; };
+		E4EFCFBDDF004369A46D1E97 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/FlacDependencies.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = FlacDependencies.c; path = src/FlacDependencies.c; sourceTree = SOURCE_ROOT; };
+		E75E4BB993494FA889AD3194 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pack.c; path = third_party/wavpack/src/pack.c; sourceTree = SOURCE_ROOT; };
+		EB8E6B36DF8248CABB527EAE /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pack_utils.c; path = third_party/wavpack/src/pack_utils.c; sourceTree = SOURCE_ROOT; };
+		F05E371EDCC547E6A9D87842 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = unpack_utils.c; path = third_party/wavpack/src/unpack_utils.c; sourceTree = SOURCE_ROOT; };
+		F146B450793B4534993CD201 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/open_legacy.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = open_legacy.c; path = third_party/wavpack/src/open_legacy.c; sourceTree = SOURCE_ROOT; };
+		F80988FCFF3C409F80CF6EFB /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/WavDecoder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = WavDecoder.cpp; path = src/WavDecoder.cpp; sourceTree = SOURCE_ROOT; };
+		FBB4CA743F0C470287ED1924 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/FlacDecoder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FlacDecoder.cpp; path = src/FlacDecoder.cpp; sourceTree = SOURCE_ROOT; };
+		FDC98C1BD07E411D97AF4BB2 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_dsd.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pack_dsd.c; path = third_party/wavpack/src/pack_dsd.c; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9853097E9126461EB62A6507 /* Frameworks */ = {
+		0F74C6758D294E1BBA5A96F4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B8E53A4BD0943358CE0E8EE /* Frameworks */ = {
+		CD10C455FB3F44DDA6B25418 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -293,176 +293,176 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		50291F291B83427B918C238C /* Resources */ = {
+		0359597AAEEA46DCABD4F7A0 /* libnyquist */ = {
 			isa = PBXGroup;
 			children = (
-				44C8FC6CDCBB4AA9BAE879AA /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/LabSound/third_party/libnyquist/CMakeFiles/libwavpack.dir/Info.plist */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		5D857C27BEE34DF5BC7B380F /* src */ = {
-			isa = PBXGroup;
-			children = (
-				8A2AA52E67144F6B8725ABBD /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/Common.cpp */,
-				7C5EEB5DAB3544939403ACBA /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/Encoders.cpp */,
-				BCF5A7E52B17424384D129E4 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/FlacDecoder.cpp */,
-				5A94BD1FDC2F4ECCBE1F670F /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/FlacDependencies.c */,
-				0A98124BE42E4D59B6B53928 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/Mp3Decoder.cpp */,
-				887423D1A5534600BBC6EED9 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/MusepackDecoder.cpp */,
-				31802BF7276448CDBDD59D85 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/MusepackDependencies.c */,
-				6740B59005414B81A6AFDFCB /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/OpusDecoder.cpp */,
-				129B102A42234A0C8A09EEDF /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/OpusDependencies.c */,
-				BA27F7D3703345BDAAE1A9EB /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/VorbisDecoder.cpp */,
-				F394A07E1380463DB348E68F /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/VorbisDependencies.c */,
-				C3A80694C4A249448328DCAE /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/WavDecoder.cpp */,
-				6403838D09B94C35A9C68A1E /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/WavPackDecoder.cpp */,
-			);
-			name = src;
-			sourceTree = "<group>";
-		};
-		659244FBDB894C27B832125F /* libnyquist */ = {
-			isa = PBXGroup;
-			children = (
-				857AB9BB94764161AC4CC87B /* Header Files */,
-				5D857C27BEE34DF5BC7B380F /* src */,
-				D08555ABA9D647ABAF52BB75 /* Resources */,
-				B902D96AA0794783B96CD075 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/CMakeLists.txt */,
+				9E49FC35F2C6438C9E5C4C7C /* Header Files */,
+				83B3E27A413A45F5B379562B /* src */,
+				5A6866DC42554C7DA846A898 /* Resources */,
+				D4C1D90D838B4DAFA7908875 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/CMakeLists.txt */,
 			);
 			name = libnyquist;
 			sourceTree = "<group>";
 		};
-		6750928803E84DFB821C7E73 /* Header Files */ = {
+		2033623323F643EDA6C6CFA9 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				77276463C171404BA917CC6C /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/decorr_tables.h */,
-				98909354976240F082690799 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack3.h */,
-				D6099F631AC448F38B3B8863 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/wavpack_local.h */,
-				09600A81914844738CBB5AD5 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/wavpack_version.h */,
+				A0CBEF302DDC47E18EDE365A /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/common_utils.c */,
+				41837013351E4C8B84D93AF5 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/decorr_utils.c */,
+				4B86AA2EB8464861AC54C3E2 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/entropy_utils.c */,
+				B1CBF52B766D44E7B19BF234 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/extra1.c */,
+				B6830860C8AB4C75AC3C6692 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/extra2.c */,
+				8872EFB83CDE41F8A647BFA7 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/open_filename.c */,
+				F146B450793B4534993CD201 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/open_legacy.c */,
+				C0B3783DE27C4EA191951EF9 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/open_raw.c */,
+				06E5C9B696CF48DDAD2994C5 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/open_utils.c */,
+				E75E4BB993494FA889AD3194 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack.c */,
+				7133BDA7C6044EA6ACBF15C0 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_dns.c */,
+				FDC98C1BD07E411D97AF4BB2 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_dsd.c */,
+				0DBF6833D81B427E87881CC9 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_floats.c */,
+				EB8E6B36DF8248CABB527EAE /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_utils.c */,
+				4FC19A51065848E8BD6FC0EE /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/read_words.c */,
+				88EBDC67BC1449EE934E3A98 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/tag_utils.c */,
+				9CF10F5C19F04D73898293E5 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/tags.c */,
+				D0F4EE71F07B4AF78B0D6056 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack.c */,
+				85CD80BF2F7C436C9D1C115B /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack3.c */,
+				AE7E1F8E11C54CD9B4468237 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack3_open.c */,
+				142BEB9B8559487BA0441B10 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack3_seek.c */,
+				6E761CF49C6C40C8A7B40300 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_dsd.c */,
+				A906C9838C854F1EA2B9F817 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_floats.c */,
+				2BAEA9893E3B4C4B8BC35089 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_seek.c */,
+				F05E371EDCC547E6A9D87842 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_utils.c */,
+				8ED949C8505A46C793E3F9D4 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/write_words.c */,
 			);
-			name = "Header Files";
+			name = "Source Files";
 			sourceTree = "<group>";
 		};
-		6CB0B261140F45EDA0E552F2 /* ALL_BUILD */ = {
+		53FA3BE4B9C44EC9999FDA18 /* libwavpack */ = {
 			isa = PBXGroup;
 			children = (
-				72AF7BD9E4B342059E73606C /* CMake Rules */,
-				3321EC6C7ACB4C6DA51F8E6D /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/CMakeLists.txt */,
+				2033623323F643EDA6C6CFA9 /* Source Files */,
+				AA3D0CADBE694BCDBC1B8ABB /* Header Files */,
+				999E463305A44BB7A7929842 /* Resources */,
+				4F220643AE44417BBB50F9F5 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/CMakeLists.txt */,
+				37D018CAEEFD4C44AFCBD142 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_x64.S */,
+				1657B45BD4D844C2A62E9619 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_x64.asm */,
+				BA1C8F10D6E444D4B83C9959 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_x86.S */,
+				E031999E9F1540B5B2901CE2 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_x86.asm */,
+				17B2ABB87E2F4610AACE2CC1 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_armv7.S */,
+				42F5659B427545CE9233E634 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_x64.S */,
+				A51C697EEC29424D8D5AD5E7 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_x64.asm */,
+				C317102514624D2FA6765FB4 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_x86.S */,
+				2FBF011CBD78452FB6C2002D /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_x86.asm */,
 			);
-			name = ALL_BUILD;
+			name = libwavpack;
 			sourceTree = "<group>";
 		};
-		72AF7BD9E4B342059E73606C /* CMake Rules */ = {
+		5A6866DC42554C7DA846A898 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A59A6077678E4C328D9306FA /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/LabSound/third_party/libnyquist/CMakeFiles/libnyquist.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5CC0F2CD05ED473689CFE803 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		857AB9BB94764161AC4CC87B /* Header Files */ = {
+		83B3E27A413A45F5B379562B /* src */ = {
 			isa = PBXGroup;
 			children = (
-				346EBECA17434D49AFB04FF6 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/include/libnyquist/Common.h */,
-				DFEAB86386ED4329A5DDBA85 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/include/libnyquist/Decoders.h */,
-				F7ED58197F3643EC997FE263 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/include/libnyquist/Encoders.h */,
+				CC06F5E781DC47E2A4923C3A /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/Common.cpp */,
+				642F367F16AF427287F3AF70 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/Encoders.cpp */,
+				FBB4CA743F0C470287ED1924 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/FlacDecoder.cpp */,
+				E4EFCFBDDF004369A46D1E97 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/FlacDependencies.c */,
+				70773E6A3C184CB7AD36DD00 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/Mp3Decoder.cpp */,
+				35BED9C66F33495FB3A9336C /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/MusepackDecoder.cpp */,
+				4EE8DAA7ADC649129477D313 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/MusepackDependencies.c */,
+				3E803772C7124E3090E16341 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/OpusDecoder.cpp */,
+				60FDD058EC7D4CC18C3FB36F /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/OpusDependencies.c */,
+				0EF25282701140B499B5631F /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/VorbisDecoder.cpp */,
+				8019E78BA4A047BCAA8927BD /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/VorbisDependencies.c */,
+				F80988FCFF3C409F80CF6EFB /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/WavDecoder.cpp */,
+				45005427F13C49D89E68EED4 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/WavPackDecoder.cpp */,
 			);
-			name = "Header Files";
+			name = src;
 			sourceTree = "<group>";
 		};
-		8E1F121471924F2390042537 /* Products */ = {
+		871FB1A7840A4364990AA905 = {
 			isa = PBXGroup;
 			children = (
-				134DDD8FB083493F8E5CC61D /* libnyquist */,
-				06C5A264FB444975A390E44E /* libwavpack */,
+				53FA3BE4B9C44EC9999FDA18 /* libwavpack */,
+				0359597AAEEA46DCABD4F7A0 /* libnyquist */,
+				A188EEBFB62745A3A1577CD1 /* ALL_BUILD */,
+				CFC27A34866D46FE81C60940 /* Products */,
+				90099D91B57F4995B52E18E8 /* Frameworks */,
+				B7AFF700AE8542DFB6CD5317 /* Resources */,
 			);
-			name = Products;
 			sourceTree = "<group>";
 		};
-		927E578B920D486AB576DBCF /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				BB731EBBE5FF4AA3A86F3E0E /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/common_utils.c */,
-				13BBECC0FBBC4B599F749E8B /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/decorr_utils.c */,
-				E298A1829BF64FAEBC1EAD15 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/entropy_utils.c */,
-				813EDAD271FF430698086046 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/extra1.c */,
-				1983C5566F454953ACCFE4CA /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/extra2.c */,
-				FC90B1FF9E9D48B7876DFD8D /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/open_filename.c */,
-				7B844F2E45AE4F5DBE548F10 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/open_legacy.c */,
-				B4EF8DBB3FDC4582A375B6C3 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/open_raw.c */,
-				093AF9E02B6D45C085332CCE /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/open_utils.c */,
-				42B4D9EFEB5849879761C258 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack.c */,
-				59192A7AB9434F75B5F00C5C /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_dns.c */,
-				D4858E81E1324AF599D548C0 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_dsd.c */,
-				DB8E4F3D86844E649BD91060 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_floats.c */,
-				4316B6A69DF141458B990768 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_utils.c */,
-				46CE05520C6A4D309531114A /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/read_words.c */,
-				4ADAA84636EB43E5A649F623 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/tag_utils.c */,
-				B63596A134D34FCE8A152C5D /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/tags.c */,
-				93242355EA23417F9C0965F7 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack.c */,
-				F530120D5464456EA9D2AAA2 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack3.c */,
-				27DDBA5A2BDF4378BEE80AAB /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack3_open.c */,
-				1D17ACE72B304E078BBADFFE /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack3_seek.c */,
-				41C289C3A0ED48EA9CEF0429 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_dsd.c */,
-				6A1D43F84FA444618C31DA34 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_floats.c */,
-				CF0FAD51588B4C94BDEB2C42 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_seek.c */,
-				BC012D814BE643ECA0B189D5 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_utils.c */,
-				93332FC2A7844868AB0E1ED9 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/write_words.c */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		99B10F79E0014CE580B564FD /* libwavpack */ = {
-			isa = PBXGroup;
-			children = (
-				927E578B920D486AB576DBCF /* Source Files */,
-				6750928803E84DFB821C7E73 /* Header Files */,
-				50291F291B83427B918C238C /* Resources */,
-				87FBC53CC9DF435CAFC91A3F /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/CMakeLists.txt */,
-				2EAFC39B93DF4DF383F489C0 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_x64.S */,
-				FB1F2EEEB1874A0EA56927D3 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_x64.asm */,
-				EF0659D21EF54965888CEEB8 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_x86.S */,
-				0C0051FD92844E049A6545C7 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_x86.asm */,
-				D10F28A011B745B285E18197 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_armv7.S */,
-				89EEC170C91B425FBDF0744F /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_x64.S */,
-				BD6CD5B1433741099059AB62 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_x64.asm */,
-				22B4273806E947CB9FE322DC /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_x86.S */,
-				78F022E9B26743D49207A756 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_x86.asm */,
-			);
-			name = libwavpack;
-			sourceTree = "<group>";
-		};
-		A6392C7D5C1840ABB48766B8 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		BEBB1B2102064D8693592F17 /* Frameworks */ = {
+		90099D91B57F4995B52E18E8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D08555ABA9D647ABAF52BB75 /* Resources */ = {
+		999E463305A44BB7A7929842 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				897714A2164C490A8AA73FD0 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/LabSound/third_party/libnyquist/CMakeFiles/libnyquist.dir/Info.plist */,
+				3E02172B121647E7A8FBC8C9 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/LabSound/third_party/libnyquist/CMakeFiles/libwavpack.dir/Info.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		ED61CCEAAE574E5AB035B6F9 = {
+		9E49FC35F2C6438C9E5C4C7C /* Header Files */ = {
 			isa = PBXGroup;
 			children = (
-				99B10F79E0014CE580B564FD /* libwavpack */,
-				659244FBDB894C27B832125F /* libnyquist */,
-				6CB0B261140F45EDA0E552F2 /* ALL_BUILD */,
-				8E1F121471924F2390042537 /* Products */,
-				BEBB1B2102064D8693592F17 /* Frameworks */,
-				A6392C7D5C1840ABB48766B8 /* Resources */,
+				57EC76A6016A48309A1DB83C /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/include/libnyquist/Common.h */,
+				307FDDC4FDF642D8A146F19A /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/include/libnyquist/Decoders.h */,
+				CDD4376113524622BFBD2D60 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/include/libnyquist/Encoders.h */,
 			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		A188EEBFB62745A3A1577CD1 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				5CC0F2CD05ED473689CFE803 /* CMake Rules */,
+				548FE6121D784261AF2873C2 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		AA3D0CADBE694BCDBC1B8ABB /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				277CAAA6FF934B299E9AA5C6 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/decorr_tables.h */,
+				7202B28E3D644DFD980D1F08 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack3.h */,
+				D9DCFDCD72944A68B487F0C2 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/wavpack_local.h */,
+				3DB3C905363640148CC04695 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/wavpack_version.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		B7AFF700AE8542DFB6CD5317 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CFC27A34866D46FE81C60940 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8608BA70E84347928B64F322 /* libnyquist */,
+				B8349DD99F244020AD4A36FD /* libwavpack */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -470,60 +470,60 @@
 /* Begin PBXNativeTarget section */
 		8F187D4245B8C44DEEAC411A /* libwavpack */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2264D3FE3CCF47169691EB35 /* Build configuration list for PBXNativeTarget "libwavpack" */;
+			buildConfigurationList = A6DBA4B7F1DC4AB0954FE9E5 /* Build configuration list for PBXNativeTarget "libwavpack" */;
 			buildPhases = (
-				0D189D8392704096B38C1A06 /* Sources */,
-				9853097E9126461EB62A6507 /* Frameworks */,
+				3A58976506EA44B49195CDA4 /* Sources */,
+				CD10C455FB3F44DDA6B25418 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				256B364182824F7788AF2C34 /* PBXTargetDependency */,
+				7B9722EC588B4936A640ABFA /* PBXTargetDependency */,
 			);
 			name = libwavpack;
 			productName = libwavpack;
-			productReference = 06C5A264FB444975A390E44E /* libwavpack */;
+			productReference = B8349DD99F244020AD4A36FD /* libwavpack */;
 			productType = "com.apple.product-type.library.static";
 		};
 		AED1B9D6AC3D09111D33A4BA /* libnyquist */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 48EA4C552A0247AEB240D481 /* Build configuration list for PBXNativeTarget "libnyquist" */;
+			buildConfigurationList = C8D670E588C14AD0A2EB9EEC /* Build configuration list for PBXNativeTarget "libnyquist" */;
 			buildPhases = (
-				8AE91AD049D545E8ABE042DD /* Sources */,
-				9B8E53A4BD0943358CE0E8EE /* Frameworks */,
+				00A8209E5ED442CF825E096C /* Sources */,
+				0F74C6758D294E1BBA5A96F4 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				14ACD7CFDF4A4C6FA486AD52 /* PBXTargetDependency */,
-				F9B1D74CFAD44A9C926B6163 /* PBXTargetDependency */,
+				F8268CB43D0F4D8B868B4E10 /* PBXTargetDependency */,
+				9E6595CA6CE8411597B62646 /* PBXTargetDependency */,
 			);
 			name = libnyquist;
 			productName = libnyquist;
-			productReference = 134DDD8FB083493F8E5CC61D /* libnyquist */;
+			productReference = 8608BA70E84347928B64F322 /* libnyquist */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		537CC1BE463D407EAE0D9235 /* Project object */ = {
+		E88325316ED6466298F49E9B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1540;
 			};
-			buildConfigurationList = 7C7754FE0CB34BB7B79E2289 /* Build configuration list for PBXProject "libnyquist" */;
+			buildConfigurationList = FD0D664700E04DD9916C79E8 /* Build configuration list for PBXProject "libnyquist" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				CF39E3111E824B5993DD6E10 /* Debug */,
-				B4B20311B7BE49D5A07B32E8 /* Release */,
-				AE359C61A9A3499C8BDE99A9 /* MinSizeRel */,
-				75735726655748C496C4B172 /* RelWithDebInfo */,
+				643103A860744C608CE62B8F /* Debug */,
+				B00CF7FF03B84C2CAE3B0094 /* Release */,
+				44BB47CC8CCA4D20BB057FBF /* MinSizeRel */,
+				C0910EED463F44948F8707E8 /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = ED61CCEAAE574E5AB035B6F9;
+			mainGroup = 871FB1A7840A4364990AA905;
 			projectDirPath = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist";
 			projectRoot = "";
 			targets = (
@@ -729,126 +729,106 @@ exit 0";
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0D189D8392704096B38C1A06 /* Sources */ = {
+		00A8209E5ED442CF825E096C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5A6AD2B6E1242E8A7D957FD /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/common_utils.c */,
-				B3555712F47F44E786FCDFFB /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/decorr_utils.c */,
-				51C6337313DB470CBDD96AD5 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/entropy_utils.c */,
-				62401A8C964A469389CAD8E3 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/extra1.c */,
-				DBAD8B2E00FC4172A0B8306C /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/extra2.c */,
-				C5E4727B531D4D019FD83021 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/open_filename.c */,
-				D9FC457629B24D878A1D79C4 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/open_legacy.c */,
-				C64CD5BA06B24BBEA2E6FADF /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/open_raw.c */,
-				13C7CD0F2ABB40B0BA8DFBF5 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/open_utils.c */,
-				0E3907EC747D438E8CEEE13F /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack.c */,
-				56650D5DF4624F6CA1C6E07F /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_dns.c */,
-				D90AFDC775D64C5A9F61199F /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_dsd.c */,
-				B240D03B71A64D2B936C9F29 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_floats.c */,
-				BA04C9059F164A06B0C309B2 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_utils.c */,
-				0D8B3E88B059418CB1CB2B94 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/read_words.c */,
-				03AEA41B15DD42929E5C93DD /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/tag_utils.c */,
-				697F5CC4CF16418BBD690FE0 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/tags.c */,
-				0149B3525E984B32B46C771A /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack.c */,
-				66BCC25F96464DD4BC625BC7 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack3.c */,
-				026636E9253E4F7B8BF2599D /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack3_open.c */,
-				F940D20F314F415CA94141D1 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack3_seek.c */,
-				4204C5DD2D6849F2A6AD33EC /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_dsd.c */,
-				AFA5B8F858484A88A9740DD7 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_floats.c */,
-				E5C833421737476AAD1C9AA1 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_seek.c */,
-				E031BEA736DE4B428BE34684 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_utils.c */,
-				74D9C30EF8784FF7880FB818 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/write_words.c */,
+				D532D367BB2B44C186B61A8B /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/Common.cpp */,
+				356B8259B8384F0B842226D8 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/Encoders.cpp */,
+				64DF099CBBD246D3AF4DFDFA /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/FlacDecoder.cpp */,
+				59E025468AC3477391D5CFA6 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/FlacDependencies.c */,
+				AC8F52B0D5AF4A4492FEA1A4 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/Mp3Decoder.cpp */,
+				1CABFB55D8224B059DA721A5 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/MusepackDecoder.cpp */,
+				8DD42E988EF54E799F86A2BD /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/MusepackDependencies.c */,
+				A039BC67679343109952DB23 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/OpusDecoder.cpp */,
+				0F00ED5E839B432DB64A2A88 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/OpusDependencies.c */,
+				968C2F518C924B3AB9CAB615 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/VorbisDecoder.cpp */,
+				54556B8B346A4112A2962D50 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/VorbisDependencies.c */,
+				417CD96EA8DB42599EAD3C3E /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/WavDecoder.cpp */,
+				3B6AF1082B7F4B769151A134 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/WavPackDecoder.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8AE91AD049D545E8ABE042DD /* Sources */ = {
+		3A58976506EA44B49195CDA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28AD55A80471481281C88E3F /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/Common.cpp */,
-				E8192D2E416C4C48A0519464 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/Encoders.cpp */,
-				AF24CEBE3BAB4BDF89767F78 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/FlacDecoder.cpp */,
-				930B6C49AAC24E4487BF8740 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/FlacDependencies.c */,
-				DFD2702F371E42158FD54447 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/Mp3Decoder.cpp */,
-				AB5D1661315A4F7F98ED4485 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/MusepackDecoder.cpp */,
-				179F2517F81F4FC2AE3EF64D /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/MusepackDependencies.c */,
-				3EDDFC5911B4492A9C2C5BE5 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/OpusDecoder.cpp */,
-				86037F1767CD4C82A01180E9 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/OpusDependencies.c */,
-				99F621671ED44463AA7B27B1 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/VorbisDecoder.cpp */,
-				AA32131E781748B8A1CC24CE /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/VorbisDependencies.c */,
-				909AD1478D4B45668D06879C /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/WavDecoder.cpp */,
-				1B4EA5D52FF5464FB673F434 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src/WavPackDecoder.cpp */,
+				CF2730974B674F6B822896D2 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/common_utils.c */,
+				85F304719D3E47DDBF46BE97 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/decorr_utils.c */,
+				BE6CE60B26704558AE78D8FC /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/entropy_utils.c */,
+				61C2B1403DD74070BED60B57 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/extra1.c */,
+				DE855B83D1C047308036DC74 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/extra2.c */,
+				7D21F71E6D00460CBB22D0BD /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/open_filename.c */,
+				77A6B3FF30D04D1DAEFF0D7F /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/open_legacy.c */,
+				28BE07A9D1EE4180AEBB7C0A /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/open_raw.c */,
+				74D6F199AF3C437B91478953 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/open_utils.c */,
+				E4AD7491D2FF43818EB92A28 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack.c */,
+				E7C6ABB286FA4F76903A4C43 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_dns.c */,
+				F9E061479E53427FAA3991A0 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_dsd.c */,
+				A7EDC117B9FF4ED6B784D563 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_floats.c */,
+				D0046607FEA4404E89E2D5FC /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/pack_utils.c */,
+				05BF1A1A91CB45D985ECFA67 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/read_words.c */,
+				A0211DACA31B4DF489AD2BD6 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/tag_utils.c */,
+				5F7E6A97EC084548979867AD /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/tags.c */,
+				6640092EBD784829989E8AA4 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack.c */,
+				A460DF218D45482192A3CD5E /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack3.c */,
+				E39EA60174144ED6A4E29BB0 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack3_open.c */,
+				7ADC4B08339F4608B0194286 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack3_seek.c */,
+				CA1AC3D132FC49FCB87DA864 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_dsd.c */,
+				38CD3C3E43F447E48E3ED91F /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_floats.c */,
+				68EBC7246C1C40C88B74C2F0 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_seek.c */,
+				8DFC5960FA95452AB071428C /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_utils.c */,
+				BB8FAA103C0F489E9FB6980D /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/src/write_words.c */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		14ACD7CFDF4A4C6FA486AD52 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 45D3B2E6BF424B83C71F419C /* ZERO_CHECK */;
-			targetProxy = 9DB7FF95BD3A4B508FDFA341 /* PBXContainerItemProxy */;
-		};
-		1F9CE03F9CCD440F8C19F0E1 /* PBXTargetDependency */ = {
+		2B4491DAF0E548489C1B3CE2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 67FC0E9AA23AA0206FB19AFB /* ALL_BUILD */;
-			targetProxy = CE0F1BF8653545E3BEDE6A6D /* PBXContainerItemProxy */;
+			targetProxy = 8CFDC7C7F8524EC382A7939B /* PBXContainerItemProxy */;
 		};
-		256B364182824F7788AF2C34 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 45D3B2E6BF424B83C71F419C /* ZERO_CHECK */;
-			targetProxy = 8A35DECAFAA34109A35E7EEF /* PBXContainerItemProxy */;
-		};
-		26A7DBA4436F4BC99DBA6F78 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 45D3B2E6BF424B83C71F419C /* ZERO_CHECK */;
-			targetProxy = B218768CFAA3445DBC75EA29 /* PBXContainerItemProxy */;
-		};
-		2FBF9A412E764AFDB7E26681 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8F187D4245B8C44DEEAC411A /* libwavpack */;
-			targetProxy = 7640F88A7BE54AB2933C4B7A /* PBXContainerItemProxy */;
-		};
-		81AE4390D3724944BC8375E0 /* PBXTargetDependency */ = {
+		7155062A62A64B1C96BC2992 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 67FC0E9AA23AA0206FB19AFB /* ALL_BUILD */;
-			targetProxy = 7F064D7E798647FE86A3AF86 /* PBXContainerItemProxy */;
+			targetProxy = BEE57425393D4159A7282174 /* PBXContainerItemProxy */;
 		};
-		C22364305079438BBC51558E /* PBXTargetDependency */ = {
+		7B9722EC588B4936A640ABFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45D3B2E6BF424B83C71F419C /* ZERO_CHECK */;
+			targetProxy = BD4CCE3FD1674FDE82B6FC24 /* PBXContainerItemProxy */;
+		};
+		9E6595CA6CE8411597B62646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45D3B2E6BF424B83C71F419C /* ZERO_CHECK */;
+			targetProxy = 9DDA85885C654B06852D585A /* PBXContainerItemProxy */;
+		};
+		C6F5B3A47F5C4A2FAEAD02C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = AED1B9D6AC3D09111D33A4BA /* libnyquist */;
-			targetProxy = 4008FFE70D1B4B9499207563 /* PBXContainerItemProxy */;
+			targetProxy = 1828EC327E794D86ACDD57C6 /* PBXContainerItemProxy */;
 		};
-		F9B1D74CFAD44A9C926B6163 /* PBXTargetDependency */ = {
+		C7F828D97DA5440FBA85020C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 8F187D4245B8C44DEEAC411A /* libwavpack */;
-			targetProxy = 41E0634B1C8F49B0A16050B5 /* PBXContainerItemProxy */;
+			targetProxy = A16F9450934A4D6DBF41B8C1 /* PBXContainerItemProxy */;
+		};
+		D1DA2D2750554F5F9BAF8A1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45D3B2E6BF424B83C71F419C /* ZERO_CHECK */;
+			targetProxy = A8F03C099EFE4501A8168670 /* PBXContainerItemProxy */;
+		};
+		F8268CB43D0F4D8B868B4E10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F187D4245B8C44DEEAC411A /* libwavpack */;
+			targetProxy = FCE4819895454EC6A82ED7FD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		10969DE701CE44FFAD90A710 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		121B689ADD9E4BD6A15AF8C5 /* RelWithDebInfo */ = {
+		0BA484652F1B49C68114060C /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -868,49 +848,66 @@ exit 0";
 			};
 			name = RelWithDebInfo;
 		};
-		2030339DEC8B4B58B257AE35 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "arm64 x86_64";
-				"ARCHS[sdk=iphoneos*]" = arm64;
-				"ARCHS[sdk=iphonesimulator*]" = "x86_64 arm64";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				ENABLE_BITCODE = NO;
-				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				ONLY_ACTIVE_ARCH = NO;
-				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/build";
-				"VALID_ARCHS[sdk=iphoneos*]" = arm64;
-				"VALID_ARCHS[sdk=iphonesimulator*]" = "x86_64 arm64";
-			};
-			name = MinSizeRel;
-		};
-		24512CCAC48F475598E8C3BE /* Debug */ = {
+		0ED3018EF7454DB1A115BDA2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (arm64,x86_64);
 				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/bin/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",MA_NO_AAUDIO,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/include","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/include/libnyquist","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/FLAC/src/include","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/libogg/include","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/libvorbis/include","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/libvorbis/src","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/musepack/include","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/opus/celt","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/opus/libopus/include","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/opus/opusfile/include","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/opus/opusfile/src/include","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/opus/silk","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/opus/silk/float","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/include","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libnyquist;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/build/libnyquist.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		1C8F08B70BA94B94B304FBFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (arm64,x86_64);
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/bin/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",MA_NO_AAUDIO,"$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/include","$(inherited)");
 				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("   ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
+				PRODUCT_NAME = libwavpack_d;
 				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/build/libwavpack.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Debug;
 		};
-		25375746C51F43018C59EF91 /* RelWithDebInfo */ = {
+		21FC6FC8A0CE49B695A4AF66 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -940,36 +937,28 @@ exit 0";
 			};
 			name = RelWithDebInfo;
 		};
-		3DFFBB5B23774A7CA6BA5791 /* MinSizeRel */ = {
+		2F68413E42EE4AC987F38D29 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (arm64,x86_64);
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/bin/MinSizeRel";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",MA_NO_AAUDIO,"$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/include","$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
+				ARCHS = "arm64 x86_64";
+				"ARCHS[sdk=iphoneos*]" = arm64;
+				"ARCHS[sdk=iphonesimulator*]" = "x86_64 arm64";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				ENABLE_BITCODE = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = ("    -DNDEBUG ","$(inherited)");
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = libwavpack;
-				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/build/libwavpack.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				SDKROOT = iphoneos;
+				SYMROOT = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/build";
+				"VALID_ARCHS[sdk=iphoneos*]" = arm64;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "x86_64 arm64";
 			};
-			name = MinSizeRel;
+			name = Debug;
 		};
-		49D835115D88439D8CF73CD4 /* Debug */ = {
+		30EC7357E042429DA493F0C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -989,36 +978,7 @@ exit 0";
 			};
 			name = Debug;
 		};
-		4CCC70E6F31A42BFA562B72E /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (arm64,x86_64);
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/bin/RelWithDebInfo";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",MA_NO_AAUDIO,"$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/include","$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = ("       -DNDEBUG ","$(inherited)");
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = libwavpack;
-				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/build/libwavpack.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		51844999AEA5470BBB2B883E /* Release */ = {
+		3CDF1E67BEE74484900FFC79 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1036,9 +996,29 @@ exit 0";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Release;
+			name = MinSizeRel;
 		};
-		53ADB5BAA7C64B47B6F160DD /* Release */ = {
+		4BF466C27F5B43478D1DBAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		5ADEBAC552294625A8A8413D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1058,7 +1038,67 @@ exit 0";
 			};
 			name = Release;
 		};
-		55CA39959B6449FAB85FFCDC /* RelWithDebInfo */ = {
+		647692981ACD4C73BA57BC3C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7B55A95F26D34DA181F0958C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		81F6F7407BB9455CBB5952A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		83B9AF54C3FE4D46B6EA692E /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1078,7 +1118,153 @@ exit 0";
 			};
 			name = RelWithDebInfo;
 		};
-		56668716813D4B61BBAC3528 /* Release */ = {
+		8B94D7D6EE714F8CB7022D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "arm64 x86_64";
+				"ARCHS[sdk=iphoneos*]" = arm64;
+				"ARCHS[sdk=iphonesimulator*]" = "x86_64 arm64";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				ENABLE_BITCODE = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/build";
+				"VALID_ARCHS[sdk=iphoneos*]" = arm64;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "x86_64 arm64";
+			};
+			name = Release;
+		};
+		8C336E4850FB4DC4B2D1AE4F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8EA979F0F23346F586A374D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		9440CEFA993A403C95A5B847 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "arm64 x86_64";
+				"ARCHS[sdk=iphoneos*]" = arm64;
+				"ARCHS[sdk=iphonesimulator*]" = "x86_64 arm64";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				ENABLE_BITCODE = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/build";
+				"VALID_ARCHS[sdk=iphoneos*]" = arm64;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "x86_64 arm64";
+			};
+			name = MinSizeRel;
+		};
+		A3013D4C41D74115AC98F71E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "arm64 x86_64";
+				"ARCHS[sdk=iphoneos*]" = arm64;
+				"ARCHS[sdk=iphonesimulator*]" = "x86_64 arm64";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				ENABLE_BITCODE = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/build";
+				"VALID_ARCHS[sdk=iphoneos*]" = arm64;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "x86_64 arm64";
+			};
+			name = RelWithDebInfo;
+		};
+		A97405E49E124D33A0C90E2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B53981FF84CC47C8923A0F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		BA86A7194FE94553BE6A2A45 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1090,6 +1276,55 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",MA_NO_AAUDIO,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libwavpack;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/build/libwavpack.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C017A850C1A44B6FBCA39A63 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C07AEA044E3D441590B029CE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (arm64,x86_64);
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/bin/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",MA_NO_AAUDIO,"$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = ("/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/include","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/include/libnyquist","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/FLAC/src/include","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/libogg/include","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/libvorbis/include","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/libvorbis/src","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/musepack/include","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/opus/celt","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/opus/libopus/include","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/opus/opusfile/include","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/opus/opusfile/src/include","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/opus/silk","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/opus/silk/float","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/include","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src","$(inherited)");
@@ -1106,9 +1341,9 @@ exit 0";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Release;
+			name = MinSizeRel;
 		};
-		695FFD10468C489FB5CC204E /* Debug */ = {
+		D416BF43954A46E4B83D4686 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1138,18 +1373,58 @@ exit 0";
 			};
 			name = Debug;
 		};
-		71475327AF5947BBA4A06386 /* Release */ = {
+		D813E697562D4D5DBB69D050 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E7D9C74B1F194E5E9A9008AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		EE2471F45B744B7CB52C2E6A /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = (arm64,x86_64);
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/bin/Release";
+				CONFIGURATION_BUILD_DIR = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/bin/MinSizeRel";
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",MA_NO_AAUDIO,"$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = ("/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/include","$(inherited)");
@@ -1165,393 +1440,118 @@ exit 0";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Release;
+			name = MinSizeRel;
 		};
-		71D2BC457D4749A98FF3A59F /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		792E6352E9124B5684AF028B /* Debug */ = {
+		F9FA750B01B74F89BFFC89AE /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = (arm64,x86_64);
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/bin/Debug";
+				CONFIGURATION_BUILD_DIR = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/bin/RelWithDebInfo";
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = 2;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",MA_NO_AAUDIO,"$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = ("/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/include","$(inherited)");
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = ("   ","$(inherited)");
+				OTHER_CFLAGS = ("       -DNDEBUG ","$(inherited)");
 				OTHER_LIBTOOLFLAGS = ("");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = libwavpack_d;
+				PRODUCT_NAME = libwavpack;
 				SECTORDER_FLAGS = "";
 				TARGET_TEMP_DIR = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/build/libwavpack.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Debug;
-		};
-		7D1C33CAE99549048503625E /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		94618DCE606F4702A65E2D6B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		9B4E4D8AA0A84E678791FC04 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = package;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		AB70D6766AD749669133171E /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
 			name = RelWithDebInfo;
-		};
-		B26B0FF82F434959B80C5739 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "arm64 x86_64";
-				"ARCHS[sdk=iphoneos*]" = arm64;
-				"ARCHS[sdk=iphonesimulator*]" = "x86_64 arm64";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				ENABLE_BITCODE = NO;
-				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				ONLY_ACTIVE_ARCH = NO;
-				SDKROOT = iphoneos;
-				SYMROOT = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/build";
-				"VALID_ARCHS[sdk=iphoneos*]" = arm64;
-				"VALID_ARCHS[sdk=iphonesimulator*]" = "x86_64 arm64";
-			};
-			name = Debug;
-		};
-		C5B3EBB0BD0E42BBB16EB1E9 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "arm64 x86_64";
-				"ARCHS[sdk=iphoneos*]" = arm64;
-				"ARCHS[sdk=iphonesimulator*]" = "x86_64 arm64";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				ENABLE_BITCODE = NO;
-				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				ONLY_ACTIVE_ARCH = NO;
-				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/build";
-				"VALID_ARCHS[sdk=iphoneos*]" = arm64;
-				"VALID_ARCHS[sdk=iphonesimulator*]" = "x86_64 arm64";
-			};
-			name = RelWithDebInfo;
-		};
-		D199C02725CE45F58885121C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		DCE5824651354F698C4F541A /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (arm64,x86_64);
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/bin/MinSizeRel";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",MA_NO_AAUDIO,"$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/include","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/include/libnyquist","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/FLAC/src/include","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/libogg/include","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/libvorbis/include","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/libvorbis/src","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/musepack/include","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/opus/celt","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/opus/libopus/include","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/opus/opusfile/include","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/opus/opusfile/src/include","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/opus/silk","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/opus/silk/float","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/third_party/wavpack/include","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libnyquist/src","$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = ("    -DNDEBUG ","$(inherited)");
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14' ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = libnyquist;
-				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/build/libnyquist.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		DF2FE25BD4FC4DF6BD813659 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = package;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		E2C91002DEE7445B93703F95 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		F690B945CC3E4796B4E7A201 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "arm64 x86_64";
-				"ARCHS[sdk=iphoneos*]" = arm64;
-				"ARCHS[sdk=iphonesimulator*]" = "x86_64 arm64";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				ENABLE_BITCODE = NO;
-				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				ONLY_ACTIVE_ARCH = NO;
-				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-combo64/build";
-				"VALID_ARCHS[sdk=iphoneos*]" = arm64;
-				"VALID_ARCHS[sdk=iphonesimulator*]" = "x86_64 arm64";
-			};
-			name = Release;
-		};
-		FD99DC81410B411D822F055D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2264D3FE3CCF47169691EB35 /* Build configuration list for PBXNativeTarget "libwavpack" */ = {
+		030C16EE5DAD47AAA417863B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				792E6352E9124B5684AF028B /* Debug */,
-				71475327AF5947BBA4A06386 /* Release */,
-				3DFFBB5B23774A7CA6BA5791 /* MinSizeRel */,
-				4CCC70E6F31A42BFA562B72E /* RelWithDebInfo */,
+				30EC7357E042429DA493F0C5 /* Debug */,
+				E7D9C74B1F194E5E9A9008AB /* Release */,
+				7B55A95F26D34DA181F0958C /* MinSizeRel */,
+				C017A850C1A44B6FBCA39A63 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		48EA4C552A0247AEB240D481 /* Build configuration list for PBXNativeTarget "libnyquist" */ = {
+		0372A03F7EE84217854EBCCE /* Build configuration list for PBXAggregateTarget "install" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				695FFD10468C489FB5CC204E /* Debug */,
-				56668716813D4B61BBAC3528 /* Release */,
-				DCE5824651354F698C4F541A /* MinSizeRel */,
-				25375746C51F43018C59EF91 /* RelWithDebInfo */,
+				B53981FF84CC47C8923A0F0C /* Debug */,
+				5ADEBAC552294625A8A8413D /* Release */,
+				8C336E4850FB4DC4B2D1AE4F /* MinSizeRel */,
+				647692981ACD4C73BA57BC3C /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		506ABDE41C624156866C64FE /* Build configuration list for PBXAggregateTarget "install" */ = {
+		A6DBA4B7F1DC4AB0954FE9E5 /* Build configuration list for PBXNativeTarget "libwavpack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				94618DCE606F4702A65E2D6B /* Debug */,
-				53ADB5BAA7C64B47B6F160DD /* Release */,
-				10969DE701CE44FFAD90A710 /* MinSizeRel */,
-				71D2BC457D4749A98FF3A59F /* RelWithDebInfo */,
+				1C8F08B70BA94B94B304FBFF /* Debug */,
+				BA86A7194FE94553BE6A2A45 /* Release */,
+				EE2471F45B744B7CB52C2E6A /* MinSizeRel */,
+				F9FA750B01B74F89BFFC89AE /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		7C7754FE0CB34BB7B79E2289 /* Build configuration list for PBXProject "libnyquist" */ = {
+		C8D670E588C14AD0A2EB9EEC /* Build configuration list for PBXNativeTarget "libnyquist" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B26B0FF82F434959B80C5739 /* Debug */,
-				F690B945CC3E4796B4E7A201 /* Release */,
-				2030339DEC8B4B58B257AE35 /* MinSizeRel */,
-				C5B3EBB0BD0E42BBB16EB1E9 /* RelWithDebInfo */,
+				D416BF43954A46E4B83D4686 /* Debug */,
+				0ED3018EF7454DB1A115BDA2 /* Release */,
+				C07AEA044E3D441590B029CE /* MinSizeRel */,
+				21FC6FC8A0CE49B695A4AF66 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		80818734D8744456B5C2CB86 /* Build configuration list for PBXAggregateTarget "package" */ = {
+		D662A036FC5649D9B9870F8B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9B4E4D8AA0A84E678791FC04 /* Debug */,
-				51844999AEA5470BBB2B883E /* Release */,
-				DF2FE25BD4FC4DF6BD813659 /* MinSizeRel */,
-				121B689ADD9E4BD6A15AF8C5 /* RelWithDebInfo */,
+				A97405E49E124D33A0C90E2C /* Debug */,
+				81F6F7407BB9455CBB5952A1 /* Release */,
+				D813E697562D4D5DBB69D050 /* MinSizeRel */,
+				83B9AF54C3FE4D46B6EA692E /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		EBE18A726D784BE98668ECF3 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		FD0D664700E04DD9916C79E8 /* Build configuration list for PBXProject "libnyquist" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				49D835115D88439D8CF73CD4 /* Debug */,
-				D199C02725CE45F58885121C /* Release */,
-				E2C91002DEE7445B93703F95 /* MinSizeRel */,
-				AB70D6766AD749669133171E /* RelWithDebInfo */,
+				2F68413E42EE4AC987F38D29 /* Debug */,
+				8B94D7D6EE714F8CB7022D2D /* Release */,
+				9440CEFA993A403C95A5B847 /* MinSizeRel */,
+				A3013D4C41D74115AC98F71E /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		FFB4A987BC9444079EA3ADEB /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		FE1DCDF2BD8E4399AA75B900 /* Build configuration list for PBXAggregateTarget "package" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				24512CCAC48F475598E8C3BE /* Debug */,
-				FD99DC81410B411D822F055D /* Release */,
-				7D1C33CAE99549048503625E /* MinSizeRel */,
-				55CA39959B6449FAB85FFCDC /* RelWithDebInfo */,
+				4BF466C27F5B43478D1DBAFE /* Debug */,
+				8EA979F0F23346F586A374D7 /* Release */,
+				3CDF1E67BEE74484900FFC79 /* MinSizeRel */,
+				0BA484652F1B49C68114060C /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 537CC1BE463D407EAE0D9235 /* Project object */;
+	rootObject = E88325316ED6466298F49E9B /* Project object */;
 }
