@@ -9,7 +9,7 @@
 /* Begin PBXAggregateTarget section */
 		389660FAC94984B5D98F31E4 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 419AF5E2CB274FE591C721B3 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 27ED972BF0E744FA8F580B4C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				0721CB78C961046AF7BF4D2A /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -20,37 +20,37 @@
 		};
 		7590E8F9E22E135992AF170A /* install */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 61E281202E9C4CF5965A97EA /* Build configuration list for PBXAggregateTarget "install" */;
+			buildConfigurationList = 9B02FF5E5A1A4C1E8A9745AB /* Build configuration list for PBXAggregateTarget "install" */;
 			buildPhases = (
 				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				0D85355F46534F178C03CAA6 /* PBXTargetDependency */,
+				16E069E0D8C04364BCC1E7C5 /* PBXTargetDependency */,
 			);
 			name = install;
 			productName = install;
 		};
 		C6F53493634C9D79C6466622 /* package */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 8F6408A73674412BAC4EEAD7 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildConfigurationList = 9BFB598F77B547B2AA8B14D7 /* Build configuration list for PBXAggregateTarget "package" */;
 			buildPhases = (
 				571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				CFDA9E2275DC40118A428AE0 /* PBXTargetDependency */,
+				545561FC0CDA483C8DF93688 /* PBXTargetDependency */,
 			);
 			name = package;
 			productName = package;
 		};
 		EAF52A2298969562592CCFCE /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 76848D00BF5F44F6BB1E4486 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 92C246B8BB1B4FEAA160FC27 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				2AA70E04B3262011C64E5F97 /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				2411FB818EB74082AA5C7E70 /* PBXTargetDependency */,
-				686E81BCA7634100A965E7C8 /* PBXTargetDependency */,
+				5F93320EC8E047AF9C0F2E0E /* PBXTargetDependency */,
+				E513160127564FB6A309D839 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
@@ -58,106 +58,106 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		2414E2F5B7184E5787DDAEEE /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-simulator-arm64/LabSound/third_party/libsamplerate/src/CMakeFiles/samplerate.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = BFE16A854A90465ABF8141E5 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-simulator-arm64/LabSound/third_party/libsamplerate/src/CMakeFiles/samplerate.dir/Info.plist */; };
-		289320DA8880428EA9B29442 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/samplerate.c */ = {isa = PBXBuildFile; fileRef = A7266CAC1632416381ED9333 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/samplerate.c */; };
-		5F7FA0372DE54066A9754441 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/src_linear.c */ = {isa = PBXBuildFile; fileRef = 05F2E1A7A401417E8EEF03D7 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/src_linear.c */; };
-		75A3FEF5E9C84B06B7C4DF76 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/mid_qual_coeffs.h */ = {isa = PBXBuildFile; fileRef = 3A03616E375A4EEDA5F8A89A /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/mid_qual_coeffs.h */; };
-		760B5945608442E8B97578C0 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/fastest_coeffs.h */ = {isa = PBXBuildFile; fileRef = 87F81CDAB08E4E6F83DED856 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/fastest_coeffs.h */; };
-		921E9DA0B42D4C8884AED03D /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/src_zoh.c */ = {isa = PBXBuildFile; fileRef = F17E3DBB9DBF44DABBB52B6C /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/src_zoh.c */; };
-		94DA17998A7145499FC0944C /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/include/samplerate.h */ = {isa = PBXBuildFile; fileRef = 279D125ADEF243FB9C342AC1 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/include/samplerate.h */; };
-		C309BA61C2CD45368F67C3A8 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/src_sinc.c */ = {isa = PBXBuildFile; fileRef = E8EE68A004D44E2CA7BFC5C1 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/src_sinc.c */; };
-		CA42D574136945D995CA2D37 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/common.h */ = {isa = PBXBuildFile; fileRef = 95479CDC301C48E5BA5753F3 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/common.h */; };
-		D6C97C1087494095B01BA5B1 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 23AEB676487744F486AD2833 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/CMakeLists.txt */; };
-		FC7D457BF0CC4183826689BC /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/high_qual_coeffs.h */ = {isa = PBXBuildFile; fileRef = 387122729EBE4B99A2B946E7 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/high_qual_coeffs.h */; };
+		0778FC99CB4742BE81938B02 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-simulator-arm64/LabSound/third_party/libsamplerate/src/CMakeFiles/samplerate.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 5FBDA4B23A5D4BEB9D016143 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-simulator-arm64/LabSound/third_party/libsamplerate/src/CMakeFiles/samplerate.dir/Info.plist */; };
+		66CC2F751F924E62BC3C089D /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/fastest_coeffs.h */ = {isa = PBXBuildFile; fileRef = C7EC9DFC47734632A60281B4 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/fastest_coeffs.h */; };
+		74BB259BA1194FB29DE33DA9 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/high_qual_coeffs.h */ = {isa = PBXBuildFile; fileRef = CD41FCD761324086883D7284 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/high_qual_coeffs.h */; };
+		80ACFAD69C5740D0AE6286EE /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 077915D7B00F4EADA1EA049C /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/CMakeLists.txt */; };
+		95F7EB26A6BA4362A720FCB8 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/samplerate.c */ = {isa = PBXBuildFile; fileRef = 0920C6D0F65643A8AB3AFFFB /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/samplerate.c */; };
+		A7DAC2A067724A778294DF72 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/mid_qual_coeffs.h */ = {isa = PBXBuildFile; fileRef = EBF76F3F96B54B64993CA7E9 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/mid_qual_coeffs.h */; };
+		A933FC6E875946CBB08E6077 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/include/samplerate.h */ = {isa = PBXBuildFile; fileRef = 65797148B7DF439DBD7A2500 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/include/samplerate.h */; };
+		CE18318958C74154B8E20AC9 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/src_zoh.c */ = {isa = PBXBuildFile; fileRef = 1889C98A73E1464E855F4243 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/src_zoh.c */; };
+		EAC810C7FC014FDAB64A0CAE /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/src_linear.c */ = {isa = PBXBuildFile; fileRef = 5C224E48C0B04BEA9FC6F0B0 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/src_linear.c */; };
+		EE1B77192A6F4510A8D88BA8 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/common.h */ = {isa = PBXBuildFile; fileRef = CC425399C27A477886408843 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/common.h */; };
+		F4584ACD1FD847B19980FB08 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/src_sinc.c */ = {isa = PBXBuildFile; fileRef = C03D1E2A54704B3B9FC29F1F /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/src_sinc.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		88C5F208D17B4DEE8DB74DA2 /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		BDF6869512D343038EDC97FD /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-		C4CB02E8290C41ABBA445EF6 /* Debug */ = {
+		5BE73B8DE1E64457903CDF89 /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Debug;
 		};
-		F21F6AB83EAB4B6FAA23F70A /* MinSizeRel */ = {
+		5D95BDFF6074467EB9A9C46A /* MinSizeRel */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = MinSizeRel;
 		};
+		60C3CEA379AF484ABAD1EA43 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		AA17765D657A48C0BE931835 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		36AF5968BFC04597ADB47BE9 /* PBXContainerItemProxy */ = {
+		08BD9BC44B0B4C1C9F8B556C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EA6EF44F4A1441C3AA5E475C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 389660FAC94984B5D98F31E4;
-			remoteInfo = ZERO_CHECK;
-		};
-		452AE205D072415384C452ED /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EA6EF44F4A1441C3AA5E475C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EAF52A2298969562592CCFCE;
-			remoteInfo = ALL_BUILD;
-		};
-		BA1BCB46FD124FA79C896BC4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EA6EF44F4A1441C3AA5E475C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 389660FAC94984B5D98F31E4;
-			remoteInfo = ZERO_CHECK;
-		};
-		F6ACA33F3BFC4E378B8849C4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EA6EF44F4A1441C3AA5E475C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EAF52A2298969562592CCFCE;
-			remoteInfo = ALL_BUILD;
-		};
-		FCFC8F8155B447469BB1A583 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EA6EF44F4A1441C3AA5E475C /* Project object */;
+			containerPortal = 7C4CDC75C84D4CDCA3848B72 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4BDDC151C66926D14798F754;
 			remoteInfo = samplerate;
 		};
+		23D6596A456744DA8C5C080B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C4CDC75C84D4CDCA3848B72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAF52A2298969562592CCFCE;
+			remoteInfo = ALL_BUILD;
+		};
+		86C7579759F84D758937ECCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C4CDC75C84D4CDCA3848B72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 389660FAC94984B5D98F31E4;
+			remoteInfo = ZERO_CHECK;
+		};
+		B6B304404094475FA8CCCEB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C4CDC75C84D4CDCA3848B72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 389660FAC94984B5D98F31E4;
+			remoteInfo = ZERO_CHECK;
+		};
+		CD38D10A0B024F26BF0BDB8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C4CDC75C84D4CDCA3848B72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAF52A2298969562592CCFCE;
+			remoteInfo = ALL_BUILD;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05F2E1A7A401417E8EEF03D7 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/src_linear.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = src_linear.c; path = src/src_linear.c; sourceTree = SOURCE_ROOT; };
-		23AEB676487744F486AD2833 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		279D125ADEF243FB9C342AC1 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/include/samplerate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = samplerate.h; path = include/samplerate.h; sourceTree = SOURCE_ROOT; };
-		387122729EBE4B99A2B946E7 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/high_qual_coeffs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = high_qual_coeffs.h; path = src/high_qual_coeffs.h; sourceTree = SOURCE_ROOT; };
-		3A03616E375A4EEDA5F8A89A /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/mid_qual_coeffs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mid_qual_coeffs.h; path = src/mid_qual_coeffs.h; sourceTree = SOURCE_ROOT; };
-		3B9F011C87124AF49A91BA05 /* samplerate */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libsamplerate.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A95494BC22D43568312E792 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		87F81CDAB08E4E6F83DED856 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/fastest_coeffs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fastest_coeffs.h; path = src/fastest_coeffs.h; sourceTree = SOURCE_ROOT; };
-		95479CDC301C48E5BA5753F3 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = common.h; path = src/common.h; sourceTree = SOURCE_ROOT; };
-		A7266CAC1632416381ED9333 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/samplerate.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = samplerate.c; path = src/samplerate.c; sourceTree = SOURCE_ROOT; };
-		BFE16A854A90465ABF8141E5 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-simulator-arm64/LabSound/third_party/libsamplerate/src/CMakeFiles/samplerate.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-simulator-arm64/LabSound/third_party/libsamplerate/src/CMakeFiles/samplerate.dir/Info.plist"; sourceTree = "<absolute>"; };
-		E8EE68A004D44E2CA7BFC5C1 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/src_sinc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = src_sinc.c; path = src/src_sinc.c; sourceTree = SOURCE_ROOT; };
-		F17E3DBB9DBF44DABBB52B6C /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/src_zoh.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = src_zoh.c; path = src/src_zoh.c; sourceTree = SOURCE_ROOT; };
+		077915D7B00F4EADA1EA049C /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		0920C6D0F65643A8AB3AFFFB /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/samplerate.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = samplerate.c; path = src/samplerate.c; sourceTree = SOURCE_ROOT; };
+		1889C98A73E1464E855F4243 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/src_zoh.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = src_zoh.c; path = src/src_zoh.c; sourceTree = SOURCE_ROOT; };
+		5C224E48C0B04BEA9FC6F0B0 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/src_linear.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = src_linear.c; path = src/src_linear.c; sourceTree = SOURCE_ROOT; };
+		5FBDA4B23A5D4BEB9D016143 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-simulator-arm64/LabSound/third_party/libsamplerate/src/CMakeFiles/samplerate.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-simulator-arm64/LabSound/third_party/libsamplerate/src/CMakeFiles/samplerate.dir/Info.plist"; sourceTree = "<absolute>"; };
+		65797148B7DF439DBD7A2500 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/include/samplerate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = samplerate.h; path = include/samplerate.h; sourceTree = SOURCE_ROOT; };
+		B5A38E2A8B5A466E9EE405F5 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C03D1E2A54704B3B9FC29F1F /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/src_sinc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = src_sinc.c; path = src/src_sinc.c; sourceTree = SOURCE_ROOT; };
+		C7EC9DFC47734632A60281B4 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/fastest_coeffs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fastest_coeffs.h; path = src/fastest_coeffs.h; sourceTree = SOURCE_ROOT; };
+		CC425399C27A477886408843 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = common.h; path = src/common.h; sourceTree = SOURCE_ROOT; };
+		CD41FCD761324086883D7284 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/high_qual_coeffs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = high_qual_coeffs.h; path = src/high_qual_coeffs.h; sourceTree = SOURCE_ROOT; };
+		DCB011369F994A98AFF21B53 /* samplerate */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libsamplerate.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF76F3F96B54B64993CA7E9 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/mid_qual_coeffs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mid_qual_coeffs.h; path = src/mid_qual_coeffs.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		14DDB43D53704E24A12B263C /* Frameworks */ = {
+		4E31DC39DD784CB9A214B046 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -167,95 +167,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		34A66658FBDE472A992BDD49 /* samplerate */ = {
+		305C48AEAE0347CBBF9ED9ED = {
 			isa = PBXGroup;
 			children = (
-				B0915CAAB220423582737020 /* Header Files */,
-				6247C12C794A4507A818EB2B /* Source Files */,
-				7514B77EBD03417AA66374C4 /* Resources */,
-				23AEB676487744F486AD2833 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/CMakeLists.txt */,
-			);
-			name = samplerate;
-			sourceTree = "<group>";
-		};
-		6247C12C794A4507A818EB2B /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				A7266CAC1632416381ED9333 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/samplerate.c */,
-				05F2E1A7A401417E8EEF03D7 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/src_linear.c */,
-				E8EE68A004D44E2CA7BFC5C1 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/src_sinc.c */,
-				F17E3DBB9DBF44DABBB52B6C /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/src_zoh.c */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		7514B77EBD03417AA66374C4 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				BFE16A854A90465ABF8141E5 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-simulator-arm64/LabSound/third_party/libsamplerate/src/CMakeFiles/samplerate.dir/Info.plist */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		A972F40ACBAE403AA00553FD /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		A9BDAF39FB6A4D41A497167A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		AFB17F9E897D4C03A730A32E = {
-			isa = PBXGroup;
-			children = (
-				BBA9D3110CE3495C9CBB05F9 /* ALL_BUILD */,
-				34A66658FBDE472A992BDD49 /* samplerate */,
-				D5727868516248D184FF17C4 /* Products */,
-				A9BDAF39FB6A4D41A497167A /* Frameworks */,
-				A972F40ACBAE403AA00553FD /* Resources */,
+				37117694C3774495A11758B9 /* ALL_BUILD */,
+				D0E0956680524A209D679DAA /* samplerate */,
+				C7EA6AE3A3C54629B05DF315 /* Products */,
+				F5C2DEFB646B41A6BE8F3911 /* Frameworks */,
+				99172E339D6F4ADD8B3E3B63 /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
-		B0915CAAB220423582737020 /* Header Files */ = {
+		37117694C3774495A11758B9 /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
-				279D125ADEF243FB9C342AC1 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/include/samplerate.h */,
-				95479CDC301C48E5BA5753F3 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/common.h */,
-				87F81CDAB08E4E6F83DED856 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/fastest_coeffs.h */,
-				387122729EBE4B99A2B946E7 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/high_qual_coeffs.h */,
-				3A03616E375A4EEDA5F8A89A /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/mid_qual_coeffs.h */,
-			);
-			name = "Header Files";
-			sourceTree = "<group>";
-		};
-		BBA9D3110CE3495C9CBB05F9 /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				ECE7DBAF7AEF46299C4AC55A /* CMake Rules */,
-				6A95494BC22D43568312E792 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/CMakeLists.txt */,
+				ECCA5CD2537E430B9677A0F5 /* CMake Rules */,
+				B5A38E2A8B5A466E9EE405F5 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/CMakeLists.txt */,
 			);
 			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
-		D5727868516248D184FF17C4 /* Products */ = {
+		99172E339D6F4ADD8B3E3B63 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3B9F011C87124AF49A91BA05 /* samplerate */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B2AF1755F6854018BD21253F /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				0920C6D0F65643A8AB3AFFFB /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/samplerate.c */,
+				5C224E48C0B04BEA9FC6F0B0 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/src_linear.c */,
+				C03D1E2A54704B3B9FC29F1F /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/src_sinc.c */,
+				1889C98A73E1464E855F4243 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/src_zoh.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		C7EA6AE3A3C54629B05DF315 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCB011369F994A98AFF21B53 /* samplerate */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ECE7DBAF7AEF46299C4AC55A /* CMake Rules */ = {
+		D0E0956680524A209D679DAA /* samplerate */ = {
+			isa = PBXGroup;
+			children = (
+				F26571961D184B39A83BB3ED /* Header Files */,
+				B2AF1755F6854018BD21253F /* Source Files */,
+				E522646FCB084737A443F15D /* Resources */,
+				077915D7B00F4EADA1EA049C /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/CMakeLists.txt */,
+			);
+			name = samplerate;
+			sourceTree = "<group>";
+		};
+		E522646FCB084737A443F15D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5FBDA4B23A5D4BEB9D016143 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-simulator-arm64/LabSound/third_party/libsamplerate/src/CMakeFiles/samplerate.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		ECCA5CD2537E430B9677A0F5 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		F26571961D184B39A83BB3ED /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				65797148B7DF439DBD7A2500 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/include/samplerate.h */,
+				CC425399C27A477886408843 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/common.h */,
+				C7EC9DFC47734632A60281B4 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/fastest_coeffs.h */,
+				CD41FCD761324086883D7284 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/high_qual_coeffs.h */,
+				EBF76F3F96B54B64993CA7E9 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/mid_qual_coeffs.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		F5C2DEFB646B41A6BE8F3911 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,42 +263,42 @@
 /* Begin PBXNativeTarget section */
 		4BDDC151C66926D14798F754 /* samplerate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FB8FB4234B4B4F96BCBA5A3D /* Build configuration list for PBXNativeTarget "samplerate" */;
+			buildConfigurationList = 9088AA7AE91149798A8665B9 /* Build configuration list for PBXNativeTarget "samplerate" */;
 			buildPhases = (
-				E642A46174E24C0EA84E3CCD /* Sources */,
-				14DDB43D53704E24A12B263C /* Frameworks */,
+				02E431833156425BB06BEB83 /* Sources */,
+				4E31DC39DD784CB9A214B046 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F0A8686A428A49628F58B38E /* PBXTargetDependency */,
+				7BB2002BC4204FEFB1B4717B /* PBXTargetDependency */,
 			);
 			name = samplerate;
 			productName = samplerate;
-			productReference = 3B9F011C87124AF49A91BA05 /* samplerate */;
+			productReference = DCB011369F994A98AFF21B53 /* samplerate */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EA6EF44F4A1441C3AA5E475C /* Project object */ = {
+		7C4CDC75C84D4CDCA3848B72 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1540;
 			};
-			buildConfigurationList = 7C5BD28A8ABB4746A4C0BA32 /* Build configuration list for PBXProject "libsamplerate" */;
+			buildConfigurationList = 89B5BDB7217B4ABB8BA51F29 /* Build configuration list for PBXProject "libsamplerate" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				C4CB02E8290C41ABBA445EF6 /* Debug */,
-				88C5F208D17B4DEE8DB74DA2 /* Release */,
-				F21F6AB83EAB4B6FAA23F70A /* MinSizeRel */,
-				BDF6869512D343038EDC97FD /* RelWithDebInfo */,
+				5BE73B8DE1E64457903CDF89 /* Debug */,
+				60C3CEA379AF484ABAD1EA43 /* Release */,
+				5D95BDFF6074467EB9A9C46A /* MinSizeRel */,
+				AA17765D657A48C0BE931835 /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = AFB17F9E897D4C03A730A32E;
+			mainGroup = 305C48AEAE0347CBBF9ED9ED;
 			projectDirPath = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate";
 			projectRoot = "";
 			targets = (
@@ -503,68 +503,49 @@ exit 0";
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E642A46174E24C0EA84E3CCD /* Sources */ = {
+		02E431833156425BB06BEB83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				289320DA8880428EA9B29442 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/samplerate.c */,
-				5F7FA0372DE54066A9754441 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/src_linear.c */,
-				C309BA61C2CD45368F67C3A8 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/src_sinc.c */,
-				921E9DA0B42D4C8884AED03D /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/src_zoh.c */,
+				95F7EB26A6BA4362A720FCB8 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/samplerate.c */,
+				EAC810C7FC014FDAB64A0CAE /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/src_linear.c */,
+				F4584ACD1FD847B19980FB08 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/src_sinc.c */,
+				CE18318958C74154B8E20AC9 /* /Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/src/src_zoh.c */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0D85355F46534F178C03CAA6 /* PBXTargetDependency */ = {
+		16E069E0D8C04364BCC1E7C5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = EAF52A2298969562592CCFCE /* ALL_BUILD */;
-			targetProxy = 452AE205D072415384C452ED /* PBXContainerItemProxy */;
+			targetProxy = 23D6596A456744DA8C5C080B /* PBXContainerItemProxy */;
 		};
-		2411FB818EB74082AA5C7E70 /* PBXTargetDependency */ = {
+		545561FC0CDA483C8DF93688 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 389660FAC94984B5D98F31E4 /* ZERO_CHECK */;
-			targetProxy = 36AF5968BFC04597ADB47BE9 /* PBXContainerItemProxy */;
+			target = EAF52A2298969562592CCFCE /* ALL_BUILD */;
+			targetProxy = CD38D10A0B024F26BF0BDB8A /* PBXContainerItemProxy */;
 		};
-		686E81BCA7634100A965E7C8 /* PBXTargetDependency */ = {
+		5F93320EC8E047AF9C0F2E0E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4BDDC151C66926D14798F754 /* samplerate */;
-			targetProxy = FCFC8F8155B447469BB1A583 /* PBXContainerItemProxy */;
+			targetProxy = 08BD9BC44B0B4C1C9F8B556C /* PBXContainerItemProxy */;
 		};
-		CFDA9E2275DC40118A428AE0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EAF52A2298969562592CCFCE /* ALL_BUILD */;
-			targetProxy = F6ACA33F3BFC4E378B8849C4 /* PBXContainerItemProxy */;
-		};
-		F0A8686A428A49628F58B38E /* PBXTargetDependency */ = {
+		7BB2002BC4204FEFB1B4717B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 389660FAC94984B5D98F31E4 /* ZERO_CHECK */;
-			targetProxy = BA1BCB46FD124FA79C896BC4 /* PBXContainerItemProxy */;
+			targetProxy = 86C7579759F84D758937ECCF /* PBXContainerItemProxy */;
+		};
+		E513160127564FB6A309D839 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 389660FAC94984B5D98F31E4 /* ZERO_CHECK */;
+			targetProxy = B6B304404094475FA8CCCEB5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		00BE6B78D5894B6A9DD80205 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				"ARCHS[sdk=iphonesimulator*]" = arm64;
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				ENABLE_BITCODE = NO;
-				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator17.5.sdk;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-simulator-arm64/build";
-				"VALID_ARCHS[sdk=iphonesimulator*]" = arm64;
-			};
-			name = RelWithDebInfo;
-		};
-		07FED18962DB4A76B2926B03 /* RelWithDebInfo */ = {
+		049D5C10C5E847A5A7C155B5 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -577,14 +558,14 @@ exit 0";
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = package;
+				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = RelWithDebInfo;
 		};
-		0E3CDC0DF94D4D49ABEB5D06 /* Debug */ = {
+		0C3101443B774B1C82DC449F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -613,7 +594,27 @@ exit 0";
 			};
 			name = Debug;
 		};
-		203E2AB36C334DD1B9230E65 /* Debug */ = {
+		0E8E6D112C4442E698081903 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		188FE02A507D43FD845E1DF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -633,224 +634,7 @@ exit 0";
 			};
 			name = Debug;
 		};
-		296BC6F198CA487CAD765B4A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = package;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		2B024679A56A44C78AE82E37 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		3207D5FB068F4A3DB594534B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				"ARCHS[sdk=iphonesimulator*]" = arm64;
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				ENABLE_BITCODE = NO;
-				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator17.5.sdk;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-simulator-arm64/build";
-				"VALID_ARCHS[sdk=iphonesimulator*]" = arm64;
-			};
-			name = Release;
-		};
-		32E0E44F50F84C9AA1D666C5 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		49AC556F106D483D93651F18 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		54C7988521014882AD2FCF0C /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-simulator-arm64/LabSound/third_party/libsamplerate/src/RelWithDebInfo${EFFECTIVE_PLATFORM_NAME}";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",MA_NO_AAUDIO,HAVE_CONFIG_H,"$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-simulator-arm64/LabSound/third_party/libsamplerate","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/include","$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = ("       -DNDEBUG '-std=gnu99' ","$(inherited)");
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = samplerate;
-				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-simulator-arm64/build/samplerate.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		6CAFDF2A0FA74109852864D2 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		71DEF172BCE84EA99E4CA65D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-simulator-arm64/LabSound/third_party/libsamplerate/src/Release${EFFECTIVE_PLATFORM_NAME}";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",MA_NO_AAUDIO,HAVE_CONFIG_H,"$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-simulator-arm64/LabSound/third_party/libsamplerate","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/include","$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = samplerate;
-				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-simulator-arm64/build/samplerate.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		7879705D29CA441E9DCF8EBF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		7AD20F29BF334BBFB4C805CB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		94C17FEF09394A13B90B9EA8 /* MinSizeRel */ = {
+		220C3BE5A3AC46F5BDE4475B /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -870,66 +654,7 @@ exit 0";
 			};
 			name = MinSizeRel;
 		};
-		95AB474732E9472B8340C5E0 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				"ARCHS[sdk=iphonesimulator*]" = arm64;
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				ENABLE_BITCODE = NO;
-				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator17.5.sdk;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-simulator-arm64/build";
-				"VALID_ARCHS[sdk=iphonesimulator*]" = arm64;
-			};
-			name = MinSizeRel;
-		};
-		9EBF60DABC864667BD01A6FA /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		A3A58D4CE890487BB6237DBE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = package;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		B300491CDE46475C90A906D0 /* Debug */ = {
+		28D9F88E35014DC287EC067F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
@@ -947,27 +672,7 @@ exit 0";
 			};
 			name = Debug;
 		};
-		CF0681787CDF49A0A38D8227 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		D5D9DBD24E174C7386C5D3DF /* MinSizeRel */ = {
+		2A9AF59E648D45AEB467A780 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -996,27 +701,26 @@ exit 0";
 			};
 			name = MinSizeRel;
 		};
-		DD534D32B8B4410F81B00D91 /* Debug */ = {
+		2DA582135C8A48DF8CEFE6F5 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				ARCHS = arm64;
+				"ARCHS[sdk=iphonesimulator*]" = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				ENABLE_BITCODE = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator17.5.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-simulator-arm64/build";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = arm64;
 			};
-			name = Debug;
+			name = MinSizeRel;
 		};
-		F63B81F6E2EF4E449EB8BC27 /* RelWithDebInfo */ = {
+		32273E59838548899814563B /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1036,7 +740,174 @@ exit 0";
 			};
 			name = RelWithDebInfo;
 		};
-		F877512350D44F9093FBE011 /* MinSizeRel */ = {
+		34F390D8640D4B119F1DB386 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				"ARCHS[sdk=iphonesimulator*]" = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				ENABLE_BITCODE = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator17.5.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-simulator-arm64/build";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = arm64;
+			};
+			name = RelWithDebInfo;
+		};
+		3942DD79117D40A99F0CB6B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		438425BBECEE426A83484369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				"ARCHS[sdk=iphonesimulator*]" = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				ENABLE_BITCODE = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator17.5.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-simulator-arm64/build";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = arm64;
+			};
+			name = Release;
+		};
+		46A3F7E692724CD2B1D1FA66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		4D95B83C9A6149B7AECBBDCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		5AE0F179940C4F3A9D18C5D3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8A289DB73CDD4035B46C7BFC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-simulator-arm64/LabSound/third_party/libsamplerate/src/RelWithDebInfo${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",MA_NO_AAUDIO,HAVE_CONFIG_H,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-simulator-arm64/LabSound/third_party/libsamplerate","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("       -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = samplerate;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-simulator-arm64/build/samplerate.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		964422D54C5844429A1E7AEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		9CFAAE1024754BDF9E5A4DA0 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1054,78 +925,207 @@ exit 0";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
+			name = RelWithDebInfo;
+		};
+		BE704C8FBCFC49B288EADC13 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C69D8C2A60C94034956F52D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D940244835DB4919B3105CF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-simulator-arm64/LabSound/third_party/libsamplerate/src/Release${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",MA_NO_AAUDIO,HAVE_CONFIG_H,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-simulator-arm64/LabSound/third_party/libsamplerate","/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/LabSound/third_party/libsamplerate/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = samplerate;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Volumes/mac-H/larpoux/proj/tau/lab_sound_bridge/build-ios/build-simulator-arm64/build/samplerate.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		DB115506BBE64DABAC2944FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		DDFB88EDE2FC41238D958154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F7B3D29C333A4059AC58356B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
 			name = MinSizeRel;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		419AF5E2CB274FE591C721B3 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		27ED972BF0E744FA8F580B4C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7AD20F29BF334BBFB4C805CB /* Debug */,
-				7879705D29CA441E9DCF8EBF /* Release */,
-				6CAFDF2A0FA74109852864D2 /* MinSizeRel */,
-				32E0E44F50F84C9AA1D666C5 /* RelWithDebInfo */,
+				DB115506BBE64DABAC2944FA /* Debug */,
+				964422D54C5844429A1E7AEF /* Release */,
+				F7B3D29C333A4059AC58356B /* MinSizeRel */,
+				049D5C10C5E847A5A7C155B5 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		61E281202E9C4CF5965A97EA /* Build configuration list for PBXAggregateTarget "install" */ = {
+		89B5BDB7217B4ABB8BA51F29 /* Build configuration list for PBXProject "libsamplerate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				203E2AB36C334DD1B9230E65 /* Debug */,
-				2B024679A56A44C78AE82E37 /* Release */,
-				F877512350D44F9093FBE011 /* MinSizeRel */,
-				9EBF60DABC864667BD01A6FA /* RelWithDebInfo */,
+				28D9F88E35014DC287EC067F /* Debug */,
+				438425BBECEE426A83484369 /* Release */,
+				2DA582135C8A48DF8CEFE6F5 /* MinSizeRel */,
+				34F390D8640D4B119F1DB386 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		76848D00BF5F44F6BB1E4486 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		9088AA7AE91149798A8665B9 /* Build configuration list for PBXNativeTarget "samplerate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DD534D32B8B4410F81B00D91 /* Debug */,
-				CF0681787CDF49A0A38D8227 /* Release */,
-				49AC556F106D483D93651F18 /* MinSizeRel */,
-				F63B81F6E2EF4E449EB8BC27 /* RelWithDebInfo */,
+				0C3101443B774B1C82DC449F /* Debug */,
+				D940244835DB4919B3105CF5 /* Release */,
+				2A9AF59E648D45AEB467A780 /* MinSizeRel */,
+				8A289DB73CDD4035B46C7BFC /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		7C5BD28A8ABB4746A4C0BA32 /* Build configuration list for PBXProject "libsamplerate" */ = {
+		92C246B8BB1B4FEAA160FC27 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B300491CDE46475C90A906D0 /* Debug */,
-				3207D5FB068F4A3DB594534B /* Release */,
-				95AB474732E9472B8340C5E0 /* MinSizeRel */,
-				00BE6B78D5894B6A9DD80205 /* RelWithDebInfo */,
+				46A3F7E692724CD2B1D1FA66 /* Debug */,
+				C69D8C2A60C94034956F52D7 /* Release */,
+				BE704C8FBCFC49B288EADC13 /* MinSizeRel */,
+				32273E59838548899814563B /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		8F6408A73674412BAC4EEAD7 /* Build configuration list for PBXAggregateTarget "package" */ = {
+		9B02FF5E5A1A4C1E8A9745AB /* Build configuration list for PBXAggregateTarget "install" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				296BC6F198CA487CAD765B4A /* Debug */,
-				A3A58D4CE890487BB6237DBE /* Release */,
-				94C17FEF09394A13B90B9EA8 /* MinSizeRel */,
-				07FED18962DB4A76B2926B03 /* RelWithDebInfo */,
+				188FE02A507D43FD845E1DF5 /* Debug */,
+				DDFB88EDE2FC41238D958154 /* Release */,
+				0E8E6D112C4442E698081903 /* MinSizeRel */,
+				9CFAAE1024754BDF9E5A4DA0 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		FB8FB4234B4B4F96BCBA5A3D /* Build configuration list for PBXNativeTarget "samplerate" */ = {
+		9BFB598F77B547B2AA8B14D7 /* Build configuration list for PBXAggregateTarget "package" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0E3CDC0DF94D4D49ABEB5D06 /* Debug */,
-				71DEF172BCE84EA99E4CA65D /* Release */,
-				D5D9DBD24E174C7386C5D3DF /* MinSizeRel */,
-				54C7988521014882AD2FCF0C /* RelWithDebInfo */,
+				3942DD79117D40A99F0CB6B7 /* Debug */,
+				4D95B83C9A6149B7AECBBDCE /* Release */,
+				220C3BE5A3AC46F5BDE4475B /* MinSizeRel */,
+				5AE0F179940C4F3A9D18C5D3 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EA6EF44F4A1441C3AA5E475C /* Project object */;
+	rootObject = 7C4CDC75C84D4CDCA3848B72 /* Project object */;
 }
