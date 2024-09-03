@@ -45,8 +45,8 @@ echo '-----------------------------'
 echo '--- build-simulator-combo ---'
 echo '-----------------------------'
 rm -rf  build-ios/build-combo64
-mkdir build-ios/build-combo64
-cmake -B ./build-ios/build-combo64 -G "Xcode" --install-prefix ~/proj/tau/lab_sound_bridge/build-ios/destination -DPLATFORM=OS64COMBINED -DCMAKE_TOOLCHAIN_FILE=cmake/ios-toolchain.cmake -DCMAKE_BUILD_TYPE=Release
+mkdir -p build-ios/build-combo64
+cmake -B ./build-ios/build-combo64 -G "Xcode" -DPLATFORM=OS64COMBINED -DCMAKE_TOOLCHAIN_FILE=cmake/ios-toolchain.cmake -DCMAKE_BUILD_TYPE=Release
 cmake --build ./build-ios/build-combo64 --config Release 
 if [ $? -ne 0 ]; then
     echo "Error: cmake --build ./build-ios/build-combo64 --config Release"
