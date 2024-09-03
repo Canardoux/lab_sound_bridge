@@ -10,6 +10,19 @@ VERSION_CODE=${VERSION//./}
 VERSION_CODE=${VERSION_CODE//+/}
 
 bin/vers.sh $VERSION
+
+rm -r build-ios/*
 tools/build_ios.sh
+if [ $? -ne 0 ]; then
+    echo "Error: tools/build_ios.sh"
+    exit -1
+fi
+
 bin/pub-ios.sh $VERSION
+if [ $? -ne 0 ]; then
+    echo "Error: bin/pub-ios.sh"
+    exit -1
+fi
+rm -r build-ios/*
+
 echo "E.O.J"

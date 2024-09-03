@@ -29,14 +29,14 @@ struct AudioDeviceInfoBridge
     int  identifier_len;
     int num_output_channels;
     int num_input_channels;
-    FloatArray supported_samplerates;
+    struct FloatArray supported_samplerates;
     float nominal_samplerate;
     int is_default_output;
     int is_default_input;
 };
 
 struct AudioDeviceInfoList {
-    AudioDeviceInfoBridge* audioDeviceList;
+    struct AudioDeviceInfoBridge* audioDeviceList;
     int length;
 };
 

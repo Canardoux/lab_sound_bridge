@@ -74,15 +74,6 @@ if [ $? -ne 0 ]; then
     exit -1
 fi
 
-xcodebuild -create-xcframework \
-    -framework ./LabSoundBridge-iphoneos.xcarchive/Products/\@rpath/LabSoundBridge.framework \
-    -framework ./LabSoundBridge-iphonesimulator.xcarchive/Products/\@rpath/LabSoundBridge.framework \
-    -output "./LabSoundBridge.xcframework"
-if [ $? -ne 0 ]; then
-    echo "Error: cmake --build xcodebuild -create-xcframework  --config Release"
-    exit -1
-fi
-
 cd ../..
 
 
