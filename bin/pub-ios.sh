@@ -10,6 +10,7 @@ VERSION_CODE=${VERSION//./}
 VERSION_CODE=${VERSION_CODE//+/}
 
 
+rm -r ./products/ios/*
 mkdir -p ./products/ios
 xcodebuild -create-xcframework \
     -framework ./build-ios/build-combo64/LabSoundBridge-iphoneos.xcarchive/Products/\@rpath/LabSoundBridge.framework \
@@ -36,10 +37,12 @@ codesignIdentity=`security find-identity -p codesigning -v | grep -Eo "[0-9A-F]{
 /usr/bin/codesign --force -s $codesignIdentity ./products/ios/LabSoundBridge.xcframework -v
 if [ $? -ne 0 ]; then
     echo "Error: /usr/bin/codesign --force -s $codesignIdentity ./build-ios/build-xcframework/LabSoundBridge.xcframework/ios-arm64/LabSoundBridge.framework -v"
-###    exit -1
+    exit -1
 fi
 # rm -rf LabSoundBridge.xcframework/ios-arm64-simulator
 # cp -a products/LabSoundBridge.framework build-xcframework/LabSoundBridge.xcframework/ios-arm64-simulator
+
+
 
 git add .
 git commit -m "lab_sound-bridge : Version $VERSION"
