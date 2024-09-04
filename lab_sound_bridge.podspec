@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
     s.platform = :ios
     s.swift_version = "5.7"
     s.ios.deployment_target  = '12.0'
-    s.source_files = 'bridge/*'
+    #s.source_files = 'bridge/*'
     s.requires_arc = true
 end
