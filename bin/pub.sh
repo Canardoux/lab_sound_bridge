@@ -23,6 +23,7 @@ if [ $? -ne 0 ]; then
     echo "Error: bin/pub-ios.sh"
     exit -1
 fi
+exit 0 #!!!!!!!!!
 rm -r build-ios/*
 
 echo "E.O.J"
