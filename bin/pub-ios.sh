@@ -15,12 +15,12 @@ mkdir -p ./products/ios
 xcodebuild -create-xcframework \
     -framework ./build-ios/build-combo64/LabSoundBridge-iphoneos.xcarchive/Products/\@rpath/LabSoundBridge.framework \
     -framework ./build-ios/build-combo64/LabSoundBridge-iphonesimulator.xcarchive/Products/\@rpath/LabSoundBridge.framework \
-    -framework ./build-mac/build-universal/LabSoundBridge-macos.xcarchive/Products/\@rpath/LabSoundBridge.framework \
     -output "./products/ios/LabSoundBridge.xcframework"
 if [ $? -ne 0 ]; then
     echo "Error: cmake --build xcodebuild -create-xcframework  --config Release"
     exit -1
 fi
+#    -framework ./build-mac/build-universal/LabSoundBridge-macos.xcarchive/Products/\@rpath/LabSoundBridge.framework \
 
 
 echo ''
