@@ -9,4 +9,4 @@ VERSION=$1
 VERSION_CODE=${VERSION//./}
 VERSION_CODE=${VERSION_CODE//+/}
 
-gsed -i  "s/^\( *s.version *= *\).*$/\1'$VERSION'/"  lab_sound_bridge.podspec
+gsed -i  "s/^\( *s.version *= *\).*$/\1'$VERSION'/"  ios/lab_sound_bridge.podspec
