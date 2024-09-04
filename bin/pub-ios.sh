@@ -56,6 +56,6 @@ fi
 
 pod trunk push lab_sound_bridge.podspec 
 if [ $? -ne 0 ]; then
-    echo "Error: trunk push lab_sound_bridge.podspec"
+    echo "Error: trunk push ios/lab_sound_bridge.podspec"
     exit -1
 fi
