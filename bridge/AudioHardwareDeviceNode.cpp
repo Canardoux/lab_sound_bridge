@@ -3,7 +3,7 @@
 #include "KeepNode.cpp"
 #include "struct.h"
 using namespace lab;
-
+/*
 DART_EXPORT int createAudioHardwareDeviceNode(AudioContext* context, const AudioStreamConfig outputConfig, const AudioStreamConfig inputConfig) {
     auto node = std::make_shared<lab::AudioHardwareDeviceNode>(*context, outputConfig, inputConfig);
     return keepNode(node);
@@ -46,3 +46,4 @@ DART_EXPORT AudioStreamConfig createAudioStreamConfig(int device_index, uint32_t
     config.desired_samplerate = desired_samplerate;
     return config;
 }
+*/

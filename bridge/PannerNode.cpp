@@ -16,7 +16,7 @@ DART_EXPORT int PannerNode_panningModel(int nodeId) {
 
 DART_EXPORT void PannerNode_setPanningModel(int nodeId, int m) {
     auto node = std::static_pointer_cast<PannerNode>(getNode(nodeId));
-    if(node) node->setPanningModel(PanningMode(m));
+    if(node) node->setPanningModel(PanningModel(m));
 }
 
 DART_EXPORT int PannerNode_distanceModel(int nodeId) {

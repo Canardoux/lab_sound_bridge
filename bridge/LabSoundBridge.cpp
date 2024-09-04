@@ -2,6 +2,8 @@
 #include "LabSound/LabSound.h"
 #include <thread>
 
+#include "KeepNode.cpp"
+
 #include "struct.h"
 
 #include "Port.cpp"
@@ -54,10 +56,10 @@ DART_EXPORT void labTest() {
 
 }
 
-
+/*
 DART_EXPORT AudioDeviceInfoList labSound_MakeAudioDeviceList() {
     const std::vector<AudioDeviceInfo> audioDevices = MakeAudioDeviceList();
-    AudioDeviceInfoBridge* devices = (AudioDeviceInfoBridge*)malloc(sizeof(AudioDeviceInfoBridge)*audioDevices.size());
+    //AudioDeviceInfoBridge* devices = (AudioDeviceInfoBridge*)malloc(sizeof(AudioDeviceInfoBridge)*audioDevices.size());
     for (int i = 0; i < audioDevices.size(); ++i)
 	{
 		devices[i].index = audioDevices[i].index;
@@ -82,24 +84,26 @@ DART_EXPORT AudioDeviceInfoList labSound_MakeAudioDeviceList() {
     deviceList.length = audioDevices.size();
     return deviceList;
 }
+*/
 
 DART_EXPORT AudioDeviceIndex labSound_GetDefaultOutputAudioDeviceIndex() {
-    return GetDefaultOutputAudioDeviceIndex();
-}
-DART_EXPORT AudioDeviceIndex labSound_GetDefaultInputAudioDeviceIndex() {
-    return GetDefaultInputAudioDeviceIndex();
+    return labSound_GetDefaultOutputAudioDeviceIndex();
 }
 
-DART_EXPORT int labSound_MakeAudioHardwareInputNode(AudioContext* context) {
-    ContextRenderLock r(context,"setBus");
-    return keepNode(MakeAudioHardwareInputNode(r));
+DART_EXPORT AudioDeviceIndex labSound_GetDefaultInputAudioDeviceIndex() {
+    return labSound_GetDefaultInputAudioDeviceIndex();
 }
+
+//DART_EXPORT int labSound_MakeAudioHardwareInputNode(AudioContext* context) {
+//    ContextRenderLock r(context,"setBus");
+//    return keepNode(AudioHardwareInputNode(r));
+//}
 
 
 DART_EXPORT AudioStreamConfig labSound_GetDefaultInputAudioDeviceConfiguration() {
-    return GetDefaultInputAudioDeviceConfiguration();
+    return labSound_GetDefaultInputAudioDeviceConfiguration();
 }
 
 DART_EXPORT AudioStreamConfig labSound_GetDefaultOutputAudioDeviceConfiguration() {
-    return GetDefaultInputAudioDeviceConfiguration();
+    return labSound_GetDefaultInputAudioDeviceConfiguration();
 }
