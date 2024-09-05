@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "lab_sound_bridge"
-    s.version      = '0.0.25'
+    s.version      = '0.0.26'
     s.summary      = "Bridge to LabSound for Flutter"
     s.description      = <<-DESC
     This lib is used by the flutter plugin `lab_sound_flutter` to access the LabSound lib.
@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
     s.platform = :ios
     s.swift_version = "5.7"
     s.ios.deployment_target  = '12.0'
-    #s.source_files = 'bridge/*'
+    s.source_files = 'bridge/*'
     s.requires_arc = true
 end

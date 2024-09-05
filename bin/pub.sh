@@ -10,6 +10,7 @@ VERSION_CODE=${VERSION//./}
 VERSION_CODE=${VERSION_CODE//+/}
 
 bin/vers.sh $VERSION
+bin/reldev.sh REL
 
 rm -r build-ios/*
 tools/build_ios.sh
