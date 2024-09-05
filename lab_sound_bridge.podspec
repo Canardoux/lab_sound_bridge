@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
     s.public_header_files   = ['bridge/**/*.h','LabSound/include/LabSound/*.h']
     s.requires_arc = true
     s.xcconfig = { 'HEADER_SEARCH_PATHS' => [
-        '../LabSound/include/'
+        '../../LabSound/include/'
     ]}
 end
