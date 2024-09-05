@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
     s.swift_version = "5.7"
     s.ios.deployment_target  = '12.0'
     s.source_files =          ['bridge/**/*','LabSound/include/LabSound/*.h']
-    s.public_header_files   = ['LabSound/include/LabSound/*.h']
+    s.public_header_files   = ['bridge/**/*.h','LabSound/include/LabSound/*.h']
     s.requires_arc = true
     s.xcconfig = { 'USER_HEADER_SEARCH_PATHS' => [
         '"${PODS_TARGET_SRCROOT}/LabSound/include/"'
