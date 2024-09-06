@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
     s.platform = :ios
     s.swift_version = "5.7"
     s.ios.deployment_target  = '12.0'
-    s.source_files =          ['bridge/**/*.{h,c,cpp}','LabSound/include/LabSound/*.h']
+    s.source_files =          ['bridge/**/*.{h,c,cpp}','LabSound/include/src/**/*.cpp']
     s.public_header_files   = ['bridge/**/*.h',        'LabSound/include/LabSound/*.h']
     s.private_header_files =  ['bridge/**/*.h',        'LabSound/include/LabSound/*.h']
     s.requires_arc = true
