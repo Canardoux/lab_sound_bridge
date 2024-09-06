@@ -24,7 +24,7 @@ DART_EXPORT void ConvolverNode_setNormalize(int nodeId, int newN) {
 
 DART_EXPORT void ConvolverNode_setImpulse(int nodeId, int busId) {
     auto node = std::static_pointer_cast<ConvolverNode>(getNode(nodeId));
-    auto bus = node -> getBus(busId);
+    auto bus = getBus(busId);
     if(node && bus) node->setImpulse(bus);
 }
 
