@@ -6,7 +6,7 @@ using namespace lab;
 
 
 DART_EXPORT int createAudioListener(AudioContext* context) {
-    auto audioListener = std::make_shared<AudioListener>(*context);
+    auto audioListener = std::make_shared<AudioListener>(/**context*/);
     return keepAudioListener(audioListener);
 }
 
