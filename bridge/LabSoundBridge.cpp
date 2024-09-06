@@ -100,10 +100,10 @@ DART_EXPORT AudioDeviceIndex labSound_GetDefaultInputAudioDeviceIndex() {
 //}
 
 
-DART_EXPORT AudioStreamConfig labSound_GetDefaultInputAudioDeviceConfiguration() {
+DART_EXPORT AudioStreamConfig* labSound_GetDefaultInputAudioDeviceConfiguration() {
     return labSound_GetDefaultInputAudioDeviceConfiguration();
 }
 
-DART_EXPORT AudioStreamConfig labSound_GetDefaultOutputAudioDeviceConfiguration() {
+DART_EXPORT AudioStreamConfig* labSound_GetDefaultOutputAudioDeviceConfiguration() {
     return labSound_GetDefaultInputAudioDeviceConfiguration();
 }
