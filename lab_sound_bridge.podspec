@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "lab_sound_bridge"
-    s.version      = '0.0.27'
+    s.version      = '0.0.28'
     s.summary      = "Bridge to LabSound for Flutter"
     s.description      = <<-DESC
     This lib is used by the flutter plugin `lab_sound_flutter` to access the LabSound lib.
@@ -21,5 +21,5 @@ Pod::Spec.new do |s|
     s.requires_arc = true
     #s.xcconfig = { 'HEADER_SEARCH_PATHS'      => ['"${PODS_TARGET_SRCROOT}/LabSound/include/"','"${PODS_TARGET_SRCROOT}/LabSound/src/"','"${PODS_TARGET_SRCROOT}/LabSound/third_party/"'],
     #               'USER_HEADER_SEARCH_PATHS' => ['"${PODS_TARGET_SRCROOT}/LabSound/include/"','"${PODS_TARGET_SRCROOT}/LabSound/src/"','"${PODS_TARGET_SRCROOT}/LabSound/third_party/"']
-    }
+    #}
 end
