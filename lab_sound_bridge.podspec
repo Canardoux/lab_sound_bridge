@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "lab_sound_bridge"
-    s.version      = '0.0.26'
+    s.version      = '0.0.27'
     s.summary      = "Bridge to LabSound for Flutter"
     s.description      = <<-DESC
     This lib is used by the flutter plugin `lab_sound_flutter` to access the LabSound lib.
@@ -15,11 +15,11 @@ Pod::Spec.new do |s|
     s.platform = :ios
     s.swift_version = "5.7"
     s.ios.deployment_target  = '12.0'
-    s.source_files =          ['bridge/**/*.{h,c,cpp}','LabSound/include/LabSound/*.h','LabSound/include/src/**/*.cpp']
-    s.public_header_files   = ['bridge/**/*.h',        'LabSound/include/LabSound/*.h']
-    s.private_header_files =  ['bridge/**/*.h',        'LabSound/include/LabSound/*.h']
+    #s.source_files =          ['bridge/**/*.{h,c,cpp}','LabSound/include/LabSound/*.h','LabSound/src/**/*.{h,cpp}']
+    #s.public_header_files   = ['bridge/**/*.h',        'LabSound/include/LabSound/*.h','LabSound/src/**/*.h']
+    #s.private_header_files =  ['bridge/**/*.h',        'LabSound/include/LabSound/*.h','LabSound/src/**/*.h']
     s.requires_arc = true
-    s.xcconfig = { 'HEADER_SEARCH_PATHS'      => ['"${PODS_TARGET_SRCROOT}/LabSound/include/"'],
-                   'USER_HEADER_SEARCH_PATHS' => ['"${PODS_TARGET_SRCROOT}/LabSound/include/"']
+    #s.xcconfig = { 'HEADER_SEARCH_PATHS'      => ['"${PODS_TARGET_SRCROOT}/LabSound/include/"','"${PODS_TARGET_SRCROOT}/LabSound/src/"','"${PODS_TARGET_SRCROOT}/LabSound/third_party/"'],
+    #               'USER_HEADER_SEARCH_PATHS' => ['"${PODS_TARGET_SRCROOT}/LabSound/include/"','"${PODS_TARGET_SRCROOT}/LabSound/src/"','"${PODS_TARGET_SRCROOT}/LabSound/third_party/"']
     }
 end
